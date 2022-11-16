@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "title":"Book A Ticket <span class='text-custom-blue'>And</span> Just Leave!",
+        "image":"assets/images/flight-2.jpg",
+        "accomondation":[
+            {
+                "icon":"fas fa-plane",
+                "title":"Over 500 Airlines"
+            },
+            {
+                "icon":"fas fa-map-marker-alt",
+                "title":"More than 13,000 places"
+            },
+            {
+                "icon":"fas fa-dollar-sign",
+                "title":"Best Price Guarantee"
+            },
+            {
+                "icon":"fas fa-comments",
+                "title":"Customer Care"
+            }
+        ],
+        "link":"/flight-grid"
+    },
+    {
+        "id":3,
+        "title":"Discover amazing places <span class='text-custom-blue'>at</span> exclusive deals!",
+        "image":"assets/images/hotel-1.jpg",
+        "accomondation":[
+            {
+                "icon":"fas fa-building",
+                "title":"Over 1000 Hotels"                                        
+            },
+            {
+                "icon":"fas fa-map-marker-alt",
+                "title":"More than 500,000 places"
+            },
+            {
+                "icon":"fas fa-dollar-sign",
+                "title":"Best Price Hotels"
+            },
+            {
+                "icon":"fas fa-comments",
+                "title":"Customer Care 24 hours"
+            }
+        ],
+        "link":"/hotel-grid"
+    },
+    {
+        "id":3,
+        "title":"We make bookings <span class='text-custom-blue'>easy</span> and quick!",
+        "image":"assets/images/car-1.jpg",
+        "accomondation":[
+            {
+                "icon":"fas fa-dollar-sign",
+                "title":"Best Price Guaranteed"
+            },
+            {
+                "icon":"fas fa-car",
+                "title":"Home Pickups"
+            },
+            {
+                "icon":"fas fa-laptop",
+                "title":"Easy Bookings"
+            },
+            {
+                "icon":"fas fa-headphones-alt",
+                "title":"24/7 Customer Care"
+            }
+        ],
+        "link":"/cruise-grid"
+    }
+]
