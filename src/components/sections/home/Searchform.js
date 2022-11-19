@@ -7,8 +7,8 @@ class Searchform extends Component {
             <div className="banner-tabs">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
-                            <div className="tabs">
+                        <div className="col-12" style={{ marginTop: '150px', marginBottom:'100px' }}>
+                            <div className="tabs" style={{ borderRadius: '20%' }}>
                                 <Tab.Container defaultActiveKey="tab2">
                                     <Nav as="ul" varient="tabs" className="custom-flex nav nav-tabs">
                                         {/* <Nav.Item as="li">
@@ -24,7 +24,7 @@ class Searchform extends Component {
                                             <Nav.Link eventKey="tab4">Cars</Nav.Link>
                                         </Nav.Item> */}
                                     </Nav>
-                                    <Tab.Content className="bg-custom-white bx-wrapper padding-20">
+                                    <Tab.Content className="bg-custom-white bx-wrapper padding-20" style={{ borderRadius: '3%' }}>
                                         <Tab.Pane eventKey="tab1">
                                             <div className="tab-inner">
                                                 <form>
@@ -180,7 +180,7 @@ class Searchform extends Component {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-4 col-md-12" style={{marginTop:'20px'}}>
+                                                        <div className="col-lg-4 col-md-12" style={{ marginTop: '20px' }}>
                                                             <div className="row">
                                                                 <div className="col-6">
                                                                     <div className="form-group">

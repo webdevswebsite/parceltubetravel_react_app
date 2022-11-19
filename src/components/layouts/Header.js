@@ -26,10 +26,10 @@ class Header extends NavHelper {
                                                 <img src={process.env.PUBLIC_URL + "/assets/images/toor-logo.png"} className="img-fluid image-fit" alt="img" />
                                             </Link>
                                         </div>
-                                       
+{/*                                        
                                         <div className="cta-btn">
                                             <Link to="/about" className="btn-first btn-submit">Enquiry Now</Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="hamburger-menu" onClick={this.toggleNav}>
                                         <div className={this.state.navMethod === true ? 'menu-btn active' : 'menu-btn'}>
