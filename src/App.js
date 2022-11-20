@@ -7,17 +7,8 @@ const Hometwo = React.lazy(() => import("./components/pages/Hometwo"));
 // About
 const About = React.lazy(() => import("./components/pages/About"));
 // Blog
-const Bloggrid = React.lazy(() => import("./components/pages/Bloggrid"));
-const Bloggridleft = React.lazy(() => import("./components/pages/Bloggridleft"));
-const Bloggridright = React.lazy(() => import("./components/pages/Bloggridright"));
-const Blogdetails = React.lazy(() => import("./components/pages/Blogdetails"));
-const Blogdetailsleft = React.lazy(() => import("./components/pages/Blogdetailsleft"));
-const Blogdetailsright = React.lazy(() => import("./components/pages/Blogdetailsright"));
 // Hotels
-const Hotelgrid = React.lazy(() => import("./components/pages/Hotelgrid"));
-const Hotelgridleft = React.lazy(() => import("./components/pages/Hotelgridleft"));
-const Hotelgridright = React.lazy(() => import("./components/pages/Hotelgridright"));
-const Hoteldetails = React.lazy(() => import("./components/pages/Hoteldetails"));
+
 // Flights
 const Flightgrid = React.lazy(() => import("./components/pages/Flightgrid"));
 const Flightgridleft = React.lazy(() => import("./components/pages/Flightgridleft"));
@@ -36,7 +27,6 @@ const Cruisedetails = React.lazy(() => import("./components/pages/Cruisedetails"
 // Contact
 const Contact = React.lazy(() => import("./components/pages/Contact"));
 // Faqs
-const Faqs = React.lazy(() => import("./components/pages/Faqs"));
 // Booking
 const Booking = React.lazy(() => import("./components/pages/Booking"));
 // Gallery
@@ -68,22 +58,8 @@ function App() {
             {/* About */}
             <Route exact path="/about" component={About} />
             {/* Blog */}
-            <Route exact path="/blog/cat/:catId" component={props => (<Bloggrid {...props} key={window.location.pathname} />)} />
-            <Route exact path="/blog/tag/:tagId" component={props => (<Bloggrid {...props} key={window.location.pathname} />)} />
-            <Route exact path="/blog/author/:authorId" component={props => (<Bloggrid {...props} key={window.location.pathname} />)} />
-            <Route exact path="/blog/search/:query" component={props => (<Bloggrid {...props} key={window.location.pathname} />)} />
-            <Route exact path="/blog-grid" component={Bloggrid} />
-            <Route exact path="/blog-grid-left" component={Bloggridleft} />
-            <Route exact path="/blog-grid-right" component={Bloggridright} />
-            <Route exact path="/blog-details/:id" component={props => (<Blogdetails {...props} key={window.location.pathname} />)} />
-            <Route exact path="/blog-details-left/:id" component={props => (<Blogdetailsleft {...props} key={window.location.pathname} />)} />
-            <Route exact path="/blog-details-right/:id" component={props => (<Blogdetailsright {...props} key={window.location.pathname} />)} />
-            {/* Hotels */}
-            <Route exact path="/hotel/:minPrice/:maxPrice" component={props => (<Hotelgrid {...props} key={window.location.pathname} />)} />
-            <Route exact path="/hotel-grid" component={Hotelgrid} />
-            <Route exact path="/hotel-grid-left" component={Hotelgridleft} />
-            <Route exact path="/hotel-grid-right" component={Hotelgridright} />
-            <Route exact path="/hotel-details/:id" component={props => (<Hoteldetails {...props} key={window.location.pathname} />)} />
+          
+            {/* Hotels */}          
             {/* Flights */}
             <Route exact path="/flight/:minPrice/:maxPrice" component={props => (<Flightgrid {...props} key={window.location.pathname} />)} />
             <Route exact path="/flight-grid" component={Flightgrid} />
@@ -106,7 +82,6 @@ function App() {
             {/* Contact */}
             <Route exact path="/contact" component={Contact} />
             {/* Faqs */}
-            <Route exact path="/faqs" component={Faqs} />
             {/* Booking */}
             <Route exact path="/booking" component={Booking} />
             {/* Gallery */}
