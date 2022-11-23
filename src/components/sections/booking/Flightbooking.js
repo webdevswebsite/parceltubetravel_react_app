@@ -2,12 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Flightbooking() {
-
     // render() {
-    const [ total, setTotal ] = useState()
-
-    console.log(total, setTotal)
-
     useEffect(() => {
         const script = document.createElement("script");
         script.src = "https://checkout.flutterwave.com/v3.js";
