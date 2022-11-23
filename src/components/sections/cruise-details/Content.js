@@ -86,14 +86,11 @@ class Content extends Component {
                                                                                         <cite className="text-custom-blue fs-16">{testimonials.text.slice(0, 135)}</cite>
                                                                                         {getAuthor(testimonials.author).map((author, i) => (
                                                                                             <div className="testimonial-author" key={i}>
-                                                                                                <div className="author-img">
-                                                                                                    <img src={process.env.PUBLIC_URL + "/" + author.image} className="rounded-circle" alt={author.name} />
-                                                                                                </div>
+                                                                                               
                                                                                                 <div className="author-name ml-2">
                                                                                                     <h6 className="text-custom-black no-margin fs-14 fw-500">
                                                                                                         {author.name}</h6>
-                                                                                                    <p className="no-margin text-light-dark">
-                                                                                                        {author.post}</p>
+                                                                                                   
                                                                                                 </div>
                                                                                             </div>
                                                                                         ))}
@@ -103,13 +100,7 @@ class Content extends Component {
                                                                             </Slider>
                                                                         </div>
                                                                     </div>
-                                                                    {/* <div className="col-12">
-                                                                        <div className="information">
-                                                                            <h4 className="text-custom-black">About {item.title}</h4>
-                                                                            <div className="htmltext" dangerouslySetInnerHTML={{ __html: item.overview.text }}>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div> */}
+                                                                   
                                                                 </div>
                                                             </div>
                                                         </Tab.Pane>
@@ -127,8 +118,7 @@ class Content extends Component {
                                                                     </li>
                                                                 ))}
 
-                                                                {/* Data */}
-                                                                {/* Data */}
+                                                              
                                                                 {getAmenities(item.includes.amenties).map((amenities, i) => (
                                                                     <li className="col-md-4 col-sm-6" key={i}>
                                                                         <div className="icon-box text-light-dark">
@@ -137,7 +127,7 @@ class Content extends Component {
                                                                         </div>
                                                                     </li>
                                                                 ))}
-                                                                {/* Data */}
+                                                              
                                                             </ul>
                                                         </Tab.Pane>
                                                         <Tab.Pane eventKey="tab3">
@@ -257,47 +247,7 @@ class Content extends Component {
                                                         </div>
                                                     </form>
                                                 </div>
-                                                {/* {getCruiseByCategory(item.category, detailId).slice(0, 1).map((cruise, i) => (
-                                                    <div className="cruise-grid mb-xl-30" key={i}>
-                                                        <div className="cruise-grid-wrapper bx-wrapper">
-                                                            <div className="image-sec animate-img">
-                                                                <Link to={"/cruise-details/" + cruise.id}>
-                                                                    <img src={process.env.PUBLIC_URL + "/" + cruise.image} className="full-width" alt={cruise.title} />
-                                                                </Link>
-                                                            </div>
-                                                            <div className="cruise-grid-caption padding-20 bg-custom-white p-relative">
-                                                                <h4 className="title fs-16 no-margin"><Link to={"/cruise-details/" + cruise.id} className="text-custom-black">{cruise.title}<small className="text-light-dark">{cruise.night} Nights</small></Link></h4>
-                                                                <span className="price"><small>From</small>${new Intl.NumberFormat().format((cruise.price).toFixed(0))}</span>
-                                                                <div className="feedback">
-                                                                    <div className="ratings">
-                                                                        <div className="rating">
-                                                                            {Rating(cruise.rating)}
-                                                                        </div>
-                                                                    </div>
-                                                                    <span className="review fs-12 text-light-white">{cruise.reviews.length} reviews</span>
-                                                                </div>
-                                                                <div className="row time">
-                                                                    <div className="date col-6">
-                                                                        <i className="far fa-clock text-yellow fs-18" />
-                                                                        <div className="text-light-dark fs-12">
-                                                                            <span className="text-custom-blue">Date</span><br />{cruise.cruisedate}
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="departure col-6">
-                                                                        <i className="fas fa-map-marker-alt text-yellow fs-18" />
-                                                                        <div className="text-light-dark fs-12">
-                                                                            <span className="text-custom-blue">Departure</span><br />{cruise.deplocation}
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="action">
-                                                                    <Link to={"/cruise-details/" + cruise.id} className="btn-second btn-small">View</Link>
-                                                                    <Link to="/booking" className="btn-first btn-submit">Book</Link>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                ))} */}
+                                               
                                                 <div className="need-help bx-wrapper padding-20">
                                                     <h5 className="text-custom-black">Need Help?.</h5>
                                                     <p className="text-light-dark">We would be more than happy to help you. Our team

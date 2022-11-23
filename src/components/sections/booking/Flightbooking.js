@@ -6,7 +6,7 @@ function Flightbooking() {
     // render() {
     const [ total, setTotal ] = useState()
 
-    console.log(setTotal)
+    console.log(total, setTotal)
 
     useEffect(() => {
         const script = document.createElement("script");
@@ -18,7 +18,8 @@ function Flightbooking() {
         <div className="tab-inner">
             <div className="row">
                 <div className="col-lg-8">
-                    <h5 className="text-custom-black">Your Personal Information</h5> <span style={{ visibility: 'hidden' }}>Total Amount:</span>  <span style={{ visibility: 'hidden' }}>{total}</span> 
+                    <h5 className="text-custom-black">Booking Information</h5>
+                   
                     <p className="text-light-dark">Kindly pay a token fee of <Link>$50</Link>  to access our exlusive booking service.
                         Upon payment, we connect your to an attendant and all your bookings are taken care off</p>
                     <form className="row mb-md-80">
@@ -310,7 +311,6 @@ function Flightbooking() {
                             </div>
                         </div>
 
-
                         <div className="col-12">
                             <hr className="mt-0" />
                             <div className="form-group">
@@ -325,7 +325,8 @@ function Flightbooking() {
                                     e.preventDefault()
                                     return window.FlutterwaveCheckout({
                                         public_key: "FLWPUBK-00f1a8bfd678ad383f650cd6cccd643b-X",
-                                        amount: total,
+                                        // amount: total,
+                                        amount: 50,
                                         currency: "USD",
                                         tx_ref: new Date().toISOString(),
                                         customer: {
