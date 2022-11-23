@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavHelper from '../../helper/NavHelper';
-import navigation from '../../data/navigation.json';
 
 class Header extends NavHelper {
     render() {

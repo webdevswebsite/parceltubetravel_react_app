@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import { Tab, Nav, Accordion, Card, Button } from "react-bootstrap";
-import { getFlight, getAirlines, getAmenities, getFlightByCategory, getRoute, getType } from '../../../helper/flightHelper';
+import { getFlight, getAirlines, getAmenities, getType } from '../../../helper/flightHelper';
 import { getAuthor, getTestimonials } from '../../../helper/helper';
 
 const settingsTesti = {

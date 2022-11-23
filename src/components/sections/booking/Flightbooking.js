@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { getRecentFlight, getRoute } from "../../../helper/flightHelper";
 
 class Flightbooking extends Component {
     render() {

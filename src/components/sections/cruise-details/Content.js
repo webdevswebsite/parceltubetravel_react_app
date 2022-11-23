@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import { Tab, Nav } from "react-bootstrap";
-import { getCruise, getAccomodation, getAmenities, getCruiseByCategory, getCruiselin } from '../../../helper/cruiseHelper';
-import { getAuthor, getTestimonials, Rating } from '../../../helper/helper';
+import { getCruise, getAccomodation, getAmenities, getCruiselin } from '../../../helper/cruiseHelper';
+import { getAuthor, getTestimonials } from '../../../helper/helper';
+
 
 const settingsTesti = {
     infinite: true,
