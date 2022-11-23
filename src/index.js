@@ -16,7 +16,7 @@ import './assets/css/responsive.css';
 import './index.css';
 
 ReactDOM.render(
-  <BrowserRouter basename={"/tm/react/toor/"}>
+  <BrowserRouter basename={"/"}>
     <App />
   </BrowserRouter>,
   document.getElementById('toor')
