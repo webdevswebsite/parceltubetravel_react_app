@@ -15,18 +15,11 @@ class Content extends Component {
                             <div className="tabs">
                                 <Tab.Container defaultActiveKey="tab2">
                                     <Nav as="ul" varient="tabs" className="custom-flex nav nav-tabs">
-                                        {/* <Nav.Item as="li">
-                                            <Nav.Link eventKey="tab1">Hotel Booking</Nav.Link>
-                                        </Nav.Item> */}
+                                        
                                         <Nav.Item as="li">
                                             <Nav.Link eventKey="tab2">Flights/Cruise Booking</Nav.Link>
                                         </Nav.Item>
-                                        {/* <Nav.Item as="li">
-                                            <Nav.Link eventKey="tab3">Cruise Booking</Nav.Link>
-                                        </Nav.Item> */}
-                                        {/* <Nav.Item as="li">
-                                            <Nav.Link eventKey="tab4">Cars Booking</Nav.Link>
-                                        </Nav.Item> */}
+                                      
                                     </Nav>
                                     <Tab.Content className="bg-custom-white bx-wrapper padding-20">
                                         <Tab.Pane eventKey="tab1">
