@@ -7,7 +7,7 @@ class Searchform extends Component {
             <div className="banner-tabs">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12" style={{ marginTop: '150px', marginBottom:'100px' }}>
+                        <div className="col-12" style={{ marginTop: '150px', marginBottom: '100px' }}>
                             <div className="tabs" style={{ borderRadius: '20%' }}>
                                 <Tab.Container defaultActiveKey="tab2">
                                     <Nav as="ul" varient="tabs" className="custom-flex nav nav-tabs">
@@ -15,11 +15,11 @@ class Searchform extends Component {
                                             <Nav.Link eventKey="tab1">Hotel</Nav.Link>
                                         </Nav.Item> */}
                                         <Nav.Item as="li">
-                                            <Nav.Link eventKey="tab2">Flights</Nav.Link>
+                                            <Nav.Link eventKey="tab2">Bookings</Nav.Link>
                                         </Nav.Item>
-                                        <Nav.Item as="li">
+                                        {/* <Nav.Item as="li">
                                             <Nav.Link eventKey="tab3">Cruise</Nav.Link>
-                                        </Nav.Item>
+                                        </Nav.Item> */}
                                         {/* <Nav.Item as="li">
                                             <Nav.Link eventKey="tab4">Cars</Nav.Link>
                                         </Nav.Item> */}
@@ -127,15 +127,31 @@ class Searchform extends Component {
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-4 col-md-6">
+                                                            {/* <div className="form-control">
+                                                                <label htmlFor="">{"Select a date"}</label>
+                                                                <input                                                           
+                                                                    placeholder="Select a date"
+                                                                    type="date"
+                                                                    // value={day}
+                                                                    required
+                                                                />
+                                                            </div> */}
                                                             <div className="row">
                                                                 <div className="col-6">
                                                                     <div className="form-group">
                                                                         <label className="fs-14 text-custom-black fw-500">Departing On</label>
                                                                         <div className="input-group group-form">
-                                                                            <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readOnly />
-                                                                            <span className="input-group-append">
+                                                                            <input
+                                                                                className='form-control form-control-custom datepickr'
+                                                                                placeholder="Select a date"
+                                                                                type="date"
+                                                                                // value={day}
+                                                                                required
+                                                                            />
+                                                                            {/* <input type="date" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" /> */}
+                                                                            {/* <span className="input-group-append">
                                                                                 <i className="far fa-calendar" />
-                                                                            </span>
+                                                                            </span> */}
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -158,10 +174,17 @@ class Searchform extends Component {
                                                                     <div className="form-group">
                                                                         <label className="fs-14 text-custom-black fw-500">Returning On</label>
                                                                         <div className="input-group group-form">
-                                                                            <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readOnly />
+                                                                            <input
+                                                                                className='form-control form-control-custom datepickr'
+                                                                                placeholder="Select a date"
+                                                                                type="date"
+                                                                                // value={day}
+                                                                                required
+                                                                            />
+                                                                            {/* <input type="date" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" />
                                                                             <span className="input-group-append">
                                                                                 <i className="far fa-calendar" />
-                                                                            </span>
+                                                                            </span> */}
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -210,7 +233,7 @@ class Searchform extends Component {
                                                                     <div className="form-group">
                                                                         <label className="fs-14 text-custom-black fw-500">Departure Date</label>
                                                                         <div className="input-group group-form">
-                                                                            <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readOnly />
+                                                                            <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" />
                                                                             <span className="input-group-append">
                                                                                 <i className="far fa-calendar" />
                                                                             </span>

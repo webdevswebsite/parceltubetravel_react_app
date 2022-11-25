@@ -231,10 +231,16 @@ class Content extends Component {
                                                                     <label className="fs-14 text-custom-black fw-500">Departing
                                                                         On</label>
                                                                     <div className="input-group group-form">
-                                                                        <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readOnly />
-                                                                        <span className="input-group-append">
+                                                                        <input
+                                                                            className='form-control form-control-custom datepickr'
+                                                                            placeholder="Select a date"
+                                                                            type="date"
+                                                                            // value={day}
+                                                                            required
+                                                                        />
+                                                                        {/* <span className="input-group-append">
                                                                             <i className="far fa-calendar" />
-                                                                        </span>
+                                                                        </span> */}
                                                                     </div>
                                                                 </div>
                                                                 <div className="form-group">
@@ -244,12 +250,19 @@ class Content extends Component {
                                                                 <div className="form-group">
                                                                     <label className="fs-14 text-custom-black fw-500">Arriving
                                                                         On</label>
-                                                                    <div className="input-group group-form">
+                                                                    <input
+                                                                        className='form-control form-control-custom datepickr'
+                                                                        placeholder="Select a date"
+                                                                        type="date"
+                                                                        // value={day}
+                                                                        required
+                                                                    />
+                                                                    {/* <div className="input-group group-form">
                                                                         <input type="text" name="#" className="form-control form-control-custom datepickr" placeholder="mm/dd/yy" readOnly />
                                                                         <span className="input-group-append">
                                                                             <i className="far fa-calendar" />
                                                                         </span>
-                                                                    </div>
+                                                                    </div> */}
                                                                 </div>
                                                                 <div className="form-group">
                                                                     <label className="fs-14 text-custom-black fw-500">Class</label>
@@ -269,40 +282,7 @@ class Content extends Component {
                                                         </div>
                                                     </form>
                                                 </div>
-                                                {/* {getFlightByCategory(item.category, detailId).slice(0, 1).map((flight, i) => (
-                                                    <div className="flights-grid mb-xl-30" key={i}>
-                                                        <div className="flights-grid-wrapper bx-wrapper">
-                                                            <div className="image-sec animate-img">
-                                                                <Link to={"/flight-details/" + flight.id}>
-                                                                    <img src={process.env.PUBLIC_URL + "/" + flight.image} className="full-width" alt={flight.title} />
-                                                                </Link>
-                                                            </div>
-                                                            <div className="flights-grid-caption padding-20 bg-custom-white p-relative">
-                                                                <div className="heading-sec">
-                                                                    <div className="left-side">
-                                                                        <i className="fas fa-plane text-gray" />
-                                                                        <div className="title">
-                                                                            <h4 className="fs-16">
-                                                                                <Link to={"/flight-details/" + flight.id} className="text-custom-black">{flight.title}</Link>
-                                                                                {getRoute(flight.flightroute).map((route, i) => (
-                                                                                    <span className="text-light-dark" key={i}>{route.title}
-                                                                                        Flight</span>
-                                                                                ))}
-                                                                            </h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="right-side">
-                                                                        <span className="price"><small>From</small>${new Intl.NumberFormat().format((flight.price).toFixed(0))}</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="action">
-                                                                    <Link to={"/flight-details/" + flight.id} className="btn-second btn-small">View</Link>
-                                                                    <Link to="/booking" className="btn-first btn-submit">Book</Link>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                ))} */}
+                                               
                                                 <div className="need-help bx-wrapper padding-20">
                                                     <h5 className="text-custom-black">Need Help?.</h5>
                                                     <p className="text-light-dark">We would be more than happy to help you. Our team
