@@ -161,8 +161,8 @@ class Searchform extends Component {
                                                                         <div className="group-form">
                                                                             <div className="nice-select custom-select form-control form-control-custom">
                                                                                 <select >
-                                                                                    <option>Anytime</option>
                                                                                     <option>Morning</option>
+                                                                                    <option>Evening</option>
                                                                                 </select>
                                                                             </div>
                                                                         </div>
@@ -194,8 +194,8 @@ class Searchform extends Component {
                                                                         <div className="group-form">
                                                                             <div className="nice-select custom-select form-control form-control-custom">
                                                                                 <select >
-                                                                                    <option>Anytime</option>
                                                                                     <option>Morning</option>
+                                                                                    <option>Evening</option>
                                                                                 </select>
                                                                             </div>
                                                                         </div>
