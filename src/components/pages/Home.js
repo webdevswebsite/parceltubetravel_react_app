@@ -19,7 +19,6 @@ class Home extends Component {
                 </MetaTags>
                 <Header />
                 <Content />
-                {/* <Partners /> */}
                 <Footer />
             </Fragment>
         );

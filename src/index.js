@@ -14,10 +14,14 @@ import './assets/css/nice-select.css';
 import './assets/css/style.css';
 import './assets/css/responsive.css';
 import './index.css';
+import CurrencyContext from './Context/CurrencyContext';
+
 
 ReactDOM.render(
   <BrowserRouter basename={"/"}>
+    <CurrencyContext>
     <App />
+    </CurrencyContext>
   </BrowserRouter>,
   document.getElementById('toor')
 );

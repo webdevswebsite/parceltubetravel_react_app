@@ -1,7 +1,19 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { CurrencyState } from '../../../Context/CurrencyContext';
+
 
 function Flightbooking() {
+
+    const price = {
+        USD: 100
+    }
+
+
+    const {
+        state: { currency, rate }
+    } = CurrencyState()
+
     // render() {
     useEffect(() => {
         const script = document.createElement("script");
@@ -9,13 +21,14 @@ function Flightbooking() {
         document.getElementsByTagName("head")[ 0 ].appendChild(script);
     }, []);
 
+    console.log(price.USD)
     return (
         <div className="tab-inner">
             <div className="row">
                 <div className="col-lg-8">
                     <h5 className="text-custom-black">Booking Information</h5>
-                   
-                    <p className="text-light-dark">Kindly pay a token fee of <Link>$50</Link>  to access our exlusive booking service.
+
+                    <p className="text-light-dark">Kindly pay a token fee of <Link>{currency}{currency !== '$' ? price.USD * rate : price.USD}</Link>  to access our exlusive booking service.
                         Upon payment, we connect your to an attendant and all your bookings are taken care off</p>
                     <form className="row mb-md-80">
                         <div className="col-md-6">
@@ -321,8 +334,8 @@ function Flightbooking() {
                                     return window.FlutterwaveCheckout({
                                         public_key: "FLWPUBK-00f1a8bfd678ad383f650cd6cccd643b-X",
                                         // amount: total,
-                                        amount: 50,
-                                        currency: "USD",
+                                        amount: currency !== '$' ? price.USD * rate : price.USD,
+                                        currency: localStorage.getItem('currency') || 'USD',
                                         tx_ref: new Date().toISOString(),
                                         customer: {
                                             email: localStorage.getItem("email"),

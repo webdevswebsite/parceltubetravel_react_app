@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { getRecentFlight, getRoute } from "../../../helper/flightHelper";
 import Slider from 'react-slick';
+import { CurrencyState } from '../../../Context/CurrencyContext';
+
 
 const settings = {
     infinite: true,
@@ -14,7 +15,7 @@ const settings = {
     autoplaySpeed: 2000,
     speed: 500,
     cssEase: 'linear',
-    responsive: [{
+    responsive: [ {
         breakpoint: 992,
         settings: {
             arrows: true,
@@ -34,28 +35,34 @@ const settings = {
             dots: true,
             slidesToShow: 1
         }
-    }]
+    } ]
 };
 
-class Recomflights extends Component {
-    render() {
-        return (
-            <section className="section-padding flights-sec bg-light-white">
-                <div className="container">
-                    <div className="section-header">
-                        <div className="section-heading">
-                            <h3 className="text-custom-black">Flights</h3>
-                            {/* <div className="section-description">
+function Recomflights() {
+
+    const {
+        state: { currency,rate }
+    } = CurrencyState()
+    // render() {
+    return (
+        <section className="section-padding flights-sec bg-light-white">
+            <div className="container">
+                <div className="section-header">
+                    <div className="section-heading">
+                        <h3 className="text-custom-black">Flights</h3>
+                        {/* <div className="section-description">
                                 <p className="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting
                                     industry. Lorem Ipsum has been the industry's standard dummy text.</p>
                             </div> */}
-                        </div>
                     </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <Slider {...settings} className="flights-slider arrow-layout-2 row">
-                                {/* Data */}
-                                {getRecentFlight().map((item, i) => (
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <Slider {...settings} className="flights-slider arrow-layout-2 row">
+                            {/* Data */}
+                            {getRecentFlight().map((item, i) => {
+                                let priceToNum = parseInt(item.price)
+                                return (
                                     <div key={i} className="slide-item col-12">
                                         <div className="flights-grid">
                                             <div className="flights-grid-wrapper bx-wrapper">
@@ -79,7 +86,8 @@ class Recomflights extends Component {
                                                             </div>
                                                         </div>
                                                         <div className="right-side">
-                                                            <span className="price"><small>From</small>${new Intl.NumberFormat().format((item.price).toFixed(0))}</span>
+                                                            {/* <span className="price"><small>From</small>{currency}{new Intl.NumberFormat().format((item.price).toFixed(0))}</span> */}
+                                                            <span className="price"><small>From</small>{currency}{ currency !== '$' ? priceToNum * rate : item.price  }</span>
                                                         </div>
                                                     </div>
                                                     <div className="action">
@@ -90,15 +98,17 @@ class Recomflights extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                ))}
-                                {/* Data */}
-                            </Slider>
-                        </div>
+                                )
+                            }
+                            )}
+                            {/* Data */}
+                        </Slider>
                     </div>
                 </div>
-            </section>
-        );
-    }
+            </div>
+        </section>
+    );
+    // }
 }
 
 export default Recomflights;

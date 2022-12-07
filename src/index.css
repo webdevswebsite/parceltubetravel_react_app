@@ -232,3 +232,21 @@ ul{
   background: transparent;
   width: 100%;
 }
+
+.currency{
+  left: 990px;
+  font-size: larger;
+  font-weight: 800;
+  position: absolute;
+  color:#596d73;;;
+}
+
+@media (max-width: 992px) {
+  .currency{
+    left: 230px;
+    font-size: larger;
+    font-weight: 600;
+    position: absolute;
+    color:#596d73;
+  }
+}
