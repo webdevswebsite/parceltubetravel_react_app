@@ -13,8 +13,8 @@ class Content extends Component {
                 <Banner />
                 <Searchform />
                 <Recomflights />
-                <Recomcruise />
-                <Category />
+                {/* <Recomcruise /> */}
+                {/* <Category /> */}
             </Fragment>
         );
     }
