@@ -12,13 +12,15 @@ class Footer extends NavHelper {
                 <footer className="section-padding footer">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-6 col-md-6">
                                 <div className="footer-box mb-md-40">
                                     <h4 className="text-custom-white fw-600">Parceltube</h4>
-                                    <p className="text-custom-white">We make all the process easy, stress free and swift. Your travelling experience is 100% optimized with us.</p>
+                                    <h5 className="text-custom-white"><strong>What does Parceltube do? </strong></h5>
+                                    <p className="text-custom-white">Parceltube is your one-stop online travel shop. Forget trawling the web for the latest flight specials. We bring you the best international and domestic flights from all your favourite airlines. Pay quickly and safely with Visa or Mastercard. Go for a journey of your preferred destinations with the best airfare discounts.. For all your travel needs, go with the best and we’ll take care of the rest.
+                                    </p>
                                     <p className="text-custom-white"><strong>Contact us: </strong>info@parceltube.ng</p>
-                                    
-                                   
+
+
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
@@ -28,15 +30,15 @@ class Footer extends NavHelper {
                                         <li>
                                             <Link to="/" className="text-custom-white">Home</Link>
                                         </li>
-                                       
+
                                         <li>
                                             <Link to="/about" className="text-custom-white">Terms of Service</Link>
                                         </li>
                                         {/* <li>
                                             <Link to="/cruise-grid" className="text-custom-white">Cruise</Link>
                                         </li> */}
-                                      
-                                       
+
+
                                     </ul>
                                 </div>
                             </div>
@@ -56,7 +58,7 @@ class Footer extends NavHelper {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            {/* <div className="col-lg-3 col-md-6">
                                 <div className="footer-box mb-sm-40">
                                     <h4 className="text-custom-white fw-600">Get travel news</h4>
                                     <div className="newsletter">
@@ -68,7 +70,7 @@ class Footer extends NavHelper {
                                         </form>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </footer>
