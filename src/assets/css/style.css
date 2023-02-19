@@ -616,6 +616,12 @@ label.submit{
 }
 .custom-select{
     background-image: none;
+    border: none;
+    border-radius: 6px !important;
+}
+
+.custom-select >select{
+    background: red;
 }
 .custom-select:focus{
     box-shadow: none;

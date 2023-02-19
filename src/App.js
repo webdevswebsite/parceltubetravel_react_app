@@ -83,7 +83,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
             {/* Faqs */}
             {/* Booking */}
-            <Route exact path="/booking" component={Booking} />
+            <Route exact path="/booking/:id" component={Booking} />
             {/* Gallery */}
             <Route exact path="/gallery" component={Gallery} />
             {/* Additional */}

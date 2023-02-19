@@ -48,6 +48,9 @@ function getStops(items) {
     });
     return elems;
 }
+// Flight all details
+const getAllFlight =()=> flightblock.map(flight => flight);
+
 // Flight details
 function getFlight(id) {
     return flightblock.filter(flight => { return flight.id === parseInt(id) })[0];
@@ -90,4 +93,4 @@ function getFilteredFlight(flights, filter = { priceFilter: [] }) {
     }
     return flights;
 }
-export { getAmenities, getAccomodation, getAirlines, getRoute, getType, getFlight, getStops, getFlightByCategory, getRecentFlight, getFilteredFlight };
+export { getAmenities, getAccomodation, getAirlines, getRoute, getType, getFlight, getStops, getFlightByCategory, getRecentFlight, getFilteredFlight, getAllFlight };

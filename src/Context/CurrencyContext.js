@@ -14,7 +14,8 @@ export const CurrencyContext = ({ children }) => {
     const [ state, dispatch ] = useReducer(currencyReducer, {
         currency: currency,
         currencies: [ "USD", "NGN" ],
-        rate: 444,
+        rate: 450,
+        flightDetails: {}
     })
 
     return (

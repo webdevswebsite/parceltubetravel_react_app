@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "title": "Delhi to Banglore",
+        "title": "Lagos to London",
         "image": "assets/images/flights/1.jpg",
-        "price": 620,
+        "price": 325,
         "flightroute": [
             1
         ],
@@ -110,17 +110,17 @@
     },
     {
         "id": 2,
-        "title": "Bengaluru to Paris",
+        "title": "Abuja to Lagos",
         "image": "assets/images/flights/2.jpg",
-        "price": 500,
+        "price": 110,
         "flightroute": [
-            2
+            1
         ],
         "flighttype": [
-            2
+            1
         ],
         "flightstops": [
-            2
+            1
         ],
         "airlines": [
             2
@@ -223,9 +223,9 @@
     },
     {
         "id": 3,
-        "title": "London to Bengaluru",
+        "title": "Dubai to Lagos",
         "image": "assets/images/flights/3.jpg",
-        "price": 420,
+        "price": 285,
         "flightroute": [
             1
         ],
@@ -332,11 +332,11 @@
     },
     {
         "id": 4,
-        "title": "London to Paris",
+        "title": "Abuja to Toronto",
         "image": "assets/images/flights/4.jpg",
-        "price": 600,
+        "price": 760,
         "flightroute": [
-            2
+            1
         ],
         "flighttype": [
             4
@@ -445,9 +445,9 @@
     },
     {
         "id": 5,
-        "title": "Bengaluru to Paris",
+        "title": "Lagos to Manchester",
         "image": "assets/images/flights/5.jpg",
-        "price": 600,
+        "price": 693,
         "flightroute": [
             1
         ],
@@ -554,11 +554,11 @@
     },
     {
         "id": 6,
-        "title": "London to Paris",
+        "title": "Lagos to Akure",
         "image": "assets/images/flights/6.jpg",
-        "price": 620,
+        "price": 83,
         "flightroute": [
-            2
+            1
         ],
         "flighttype": [
             2
@@ -667,9 +667,9 @@
     },
     {
         "id": 7,
-        "title": "Delhi to Paris",
+        "title": "Lagos to Benin",
         "image": "assets/images/flights/7.jpg",
-        "price": 620,
+        "price": 77,
         "flightroute": [
             1
         ],
@@ -776,11 +776,11 @@
     },
     {
         "id": 8,
-        "title": "Mumbai to Paris",
+        "title": "Lagos to Asaba",
         "image": "assets/images/flights/8.jpg",
-        "price": 200,
+        "price": 149,
         "flightroute": [
-            2
+            1
         ],
         "flighttype": [
             4
@@ -889,9 +889,9 @@
     },
     {
         "id": 9,
-        "title": "London to Mumbai",
+        "title": "Lagos to Accra",
         "image": "assets/images/flights/9.jpg",
-        "price": 120,
+        "price": 216,
         "flightroute": [
             1
         ],

@@ -16,6 +16,7 @@ class Footer extends NavHelper {
                                 <div className="footer-box mb-md-40">
                                     <h4 className="text-custom-white fw-600">Parceltube</h4>
                                     <p className="text-custom-white">We make all the process easy, stress free and swift. Your travelling experience is 100% optimized with us.</p>
+                                    <p className="text-custom-white"><strong>Contact us: </strong>info@parceltube.ng</p>
                                     
                                    
                                 </div>
@@ -29,11 +30,11 @@ class Footer extends NavHelper {
                                         </li>
                                        
                                         <li>
-                                            <Link to="/flight-grid" className="text-custom-white">Flights</Link>
+                                            <Link to="/about" className="text-custom-white">Terms of Service</Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link to="/cruise-grid" className="text-custom-white">Cruise</Link>
-                                        </li>
+                                        </li> */}
                                       
                                        
                                     </ul>
@@ -57,13 +58,13 @@ class Footer extends NavHelper {
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="footer-box mb-sm-40">
-                                    <h4 className="text-custom-white fw-600">Stay Connected</h4>
+                                    <h4 className="text-custom-white fw-600">Get travel news</h4>
                                     <div className="newsletter">
                                         <form>
                                             <div className="form-group">
-                                                <input type="email" name="#" className="form-control form-control-custom" placeholder="Email" required />
+                                                <input type="email" name="#" className="form-control form-control-custom" placeholder="Subscribe with email" required />
                                             </div>
-                                            <button type="submit" className="btn-first btn-submit">Send me updates</button>
+                                            <button type="submit" className="btn-first btn-submit">Send me news</button>
                                         </form>
                                     </div>
                                 </div>

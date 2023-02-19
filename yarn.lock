@@ -9815,6 +9815,11 @@ react-google-recaptcha@^2.1.0:
     prop-types "^15.5.0"
     react-async-script "^1.1.1"
 
+react-hook-form@*:
+  version "7.43.1"
+  resolved "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.43.1.tgz"
+  integrity sha512-+s3+s8LLytRMriwwuSqeLStVjRXFGxgjjx2jED7Z+wz1J/88vpxieRQGvJVvzrzVxshZ0BRuocFERb779m2kNg==
+
 react-ion-slider@^1.0.17:
   version "1.0.17"
   resolved "https://registry.npmjs.org/react-ion-slider/-/react-ion-slider-1.0.17.tgz"

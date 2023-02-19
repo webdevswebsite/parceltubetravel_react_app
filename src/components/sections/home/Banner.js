@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import bannercontent from "../../../data/banner.json";
 
@@ -50,7 +49,7 @@ class Banner extends Component {
                                                         ))}
                                                         {/* Data */}
                                                     </ul>
-                                                    <Link to={item.link} className="btn-first btn-small">Find Out More</Link>
+                                                    {/* <Link to={item.link} className="btn-first btn-small">Find Out More</Link> */}
                                                 </div>
                                             </div>
                                         </div>

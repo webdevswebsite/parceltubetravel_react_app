@@ -16,6 +16,7 @@
     "react-countup": "^6.0.0",
     "react-dom": "^17.0.2",
     "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.43.1",
     "react-ion-slider": "^1.0.17",
     "react-js-pagination": "^3.0.3",
     "react-masonry-component": "^6.3.0",

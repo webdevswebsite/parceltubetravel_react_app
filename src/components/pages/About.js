@@ -2,12 +2,9 @@ import React, { Component, Fragment } from 'react';
 import MetaTags from "react-meta-tags";
 import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
-import Breadcrumbs from '../layouts/Breadcrumbs';
-import Partners from '../layouts/Partners';
 import Content from '../sections/about/Content';
 
 const pagelocation = "About Us";
-
 class About extends Component {
     render() {
         return (
@@ -20,9 +17,7 @@ class About extends Component {
                     />
                 </MetaTags>
                 <Header />
-                <Breadcrumbs breadcrumb={{ pagename: pagelocation }} />
                 <Content />
-                <Partners />
                 <Footer />
             </Fragment>
         );

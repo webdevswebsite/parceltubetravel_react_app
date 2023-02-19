@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import { getRecentFlight, getRoute } from "../../../helper/flightHelper";
+import { getRecentFlight, getRoute, getAllFlight } from "../../../helper/flightHelper";
 import Slider from 'react-slick';
 import { CurrencyState } from '../../../Context/CurrencyContext';
+import { formatNumber } from "../../../utils";
 
 
 const settings = {
@@ -38,77 +39,130 @@ const settings = {
     } ]
 };
 
+
 function Recomflights() {
 
     const {
-        state: { currency,rate }
+        state: { currency, rate }
     } = CurrencyState()
-    // render() {
+
     return (
-        <section className="section-padding flights-sec bg-light-white">
-            <div className="container">
-                <div className="section-header">
-                    <div className="section-heading">
-                        <h3 className="text-custom-black">Flights</h3>
-                        {/* <div className="section-description">
-                                <p className="text-light-dark">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                            </div> */}
+        <>
+            <section className="section-padding flights-sec bg-light-white">
+                <div className="container">
+                    <div className="section-header">
+                        <div className="section-heading">
+                            <h3 className="text-custom-black">Popular destinations</h3>
+                        </div>
                     </div>
-                </div>
-                <div className="row">
-                    <div className="col-12">
-                        <Slider {...settings} className="flights-slider arrow-layout-2 row">
-                            {/* Data */}
-                            {getRecentFlight().map((item, i) => {
-                                let priceToNum = parseInt(item.price)
-                                return (
-                                    <div key={i} className="slide-item col-12">
-                                        <div className="flights-grid">
-                                            <div className="flights-grid-wrapper bx-wrapper">
-                                                <div className="image-sec animate-img">
-                                                    <Link to={"/flight-details/" + item.id}>
-                                                        <img src={process.env.PUBLIC_URL + "/" + item.image} className="full-width" alt={item.title} />
-                                                    </Link>
-                                                </div>
-                                                <div className="flights-grid-caption padding-20 bg-custom-white p-relative">
-                                                    <div className="heading-sec">
-                                                        <div className="left-side">
-                                                            <i className="fas fa-plane text-gray" />
-                                                            <div className="title">
-                                                                <h4 className="fs-16">
-                                                                    <Link to={"/flight-details/" + item.id} className="text-custom-black">{item.title}</Link>
-                                                                    {getRoute(item.flightroute).map((route, i) => (
-                                                                        <span className="text-light-dark" key={i}>{route.title}
-                                                                            Flight</span>
-                                                                    ))}
-                                                                </h4>
+                    <div className="row">
+                        <div className="col-12">
+                            <Slider {...settings} className="flights-slider arrow-layout-2 row">
+                                {getRecentFlight().map((item, i) => {
+                                    let priceToNum = parseInt(item.price)
+                                    return (
+                                        <div key={i} className="slide-item col-12">
+                                            <div className="flights-grid">
+                                                <div className="flights-grid-wrapper bx-wrapper">
+                                                    <div className="image-sec animate-img">
+                                                        <Link to={`/booking/${i}`}>
+                                                            <img src={process.env.PUBLIC_URL + "/" + item.image} className="full-width" alt={item.title} />
+                                                        </Link>
+                                                    </div>
+                                                    <div className="flights-grid-caption padding-20 bg-custom-white p-relative">
+                                                        <div className="heading-sec">
+                                                            <div className="left-side">
+                                                                <i className="fas fa-plane text-gray" />
+                                                                <div className="title">
+                                                                    <h4 className="fs-16">
+                                                                        <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
+                                                                        {getRoute(item.flightroute).map((route, i) => (
+                                                                            <span className="text-light-dark" key={i}>{route.title}
+                                                                                Flight</span>
+                                                                        ))}
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div className="right-side">
+                                                                <span className="price"><small>Flight price</small>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)}</span>
                                                             </div>
                                                         </div>
-                                                        <div className="right-side">
-                                                            {/* <span className="price"><small>From</small>{currency}{new Intl.NumberFormat().format((item.price).toFixed(0))}</span> */}
-                                                            <span className="price"><small>From</small>{currency}{ currency !== '$' ? priceToNum * rate : item.price  }</span>
+                                                        <div className="action">
+                                                            <Link to={`/booking/${i}`} className="btn-first btn-submit">Book Now</Link>
                                                         </div>
-                                                    </div>
-                                                    <div className="action">
-                                                        {/* <Link to={"/flight-details/" + item.id} className="btn-second btn-small">View</Link> */}
-                                                        <Link to={"/flight-details/" + item.id} className="btn-first btn-submit">Book</Link>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    )
+                                }
+                                )}
+                            </Slider>
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </section>
+            <section className="section-padding flights-sec bg-light-white">
+                <div className="container" style={{marginTop:'-90px'}}> 
+                <div className="section-header">
+                        <div className="section-heading">
+                            <h3 className="text-custom-black">More destinations</h3>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="flights-slider arrow-layout-2 row col-md-12">
+                        {/* <div className="col-12 flights-slider arrow-layout-2 row"> */}
+                            {getAllFlight().map((item, i) => {
+                                let priceToNum = parseInt(item.price)
+                                return (
+                                    <>
+                                        <div key={i} className="slide-item col-md-12 col-lg-4">
+                                        {/* <div key={i} className="slide-item col-4"> */}
+                                            <div className="flights-grid " style={{ marginTop: '5px' }}>
+                                                <div className="flights-grid-wrapper bx-wrapper">
+                                                    <div className="image-sec animate-img">
+                                                        <Link to={`/booking/${i}`}>
+                                                            <img src={process.env.PUBLIC_URL + "/" + item.image} className="full-width" alt={item.title} />
+                                                        </Link>
+                                                    </div>
+                                                    <div className="flights-grid-caption padding-20 bg-custom-white p-relative">
+                                                        <div className="heading-sec">
+                                                            <div className="left-side">
+                                                                <i className="fas fa-plane text-gray" />
+                                                                <div className="title">
+                                                                    <h4 className="fs-16">
+                                                                        <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
+                                                                        {getRoute(item.flightroute).map((route, i) => (
+                                                                            <span className="text-light-dark" key={i}>{route.title}
+                                                                                Flight</span>
+                                                                        ))}
+                                                                    </h4>
+                                                                </div>
+                                                            </div>
+                                                            <div className="right-side">
+
+                                                                <span className="price"><small>Flight price</small>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)}</span>
+                                                            </div>
+                                                        </div>
+                                                        <div className="action">
+                                                            <Link to={`/booking/${i}`} className="btn-first btn-submit">Book Now</Link>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </>
                                 )
                             }
                             )}
-                            {/* Data */}
-                        </Slider>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </>
     );
-    // }
 }
 
 export default Recomflights;
