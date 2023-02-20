@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
-import { getRecentFlight, getRoute, getAllFlight } from "../../../helper/flightHelper";
+import { getRecentFlight, getRoute } from "../../../helper/flightHelper";
 import Slider from 'react-slick';
 import { CurrencyState } from '../../../Context/CurrencyContext';
 import { formatNumber } from "../../../utils";
+import data from "../../../data/flights/flight.json"
 
 
 const settings = {
@@ -39,7 +40,6 @@ const settings = {
     } ]
 };
 
-
 function Recomflights() {
 
     const {
@@ -52,7 +52,7 @@ function Recomflights() {
                 <div className="container">
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Popular destinations</h3>
+                            <h3 className="text-custom-black">Top Flight Deals</h3>
                         </div>
                     </div>
                     <div className="row">
@@ -107,19 +107,18 @@ function Recomflights() {
                 <div className="container" style={{marginTop:'-90px'}}> 
                 <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">More destinations</h3>
+                            <h3 className="text-custom-black">Popular flights</h3>
                         </div>
                     </div>
                     <div className="row">
                         <div className="flights-slider arrow-layout-2 row col-md-12">
-                        {/* <div className="col-12 flights-slider arrow-layout-2 row"> */}
-                            {getAllFlight().map((item, i) => {
+                            {data.map((item, i) => {
+                            // {getAllFlight().map((item, i) => {
                                 let priceToNum = parseInt(item.price)
                                 return (
                                     <>
                                         <div key={i} className="slide-item col-md-12 col-lg-4">
-                                        {/* <div key={i} className="slide-item col-4"> */}
-                                            <div className="flights-grid " style={{ marginTop: '5px' }}>
+                                            <div className="flights-grid " style={{ marginTop: '25px' }}>
                                                 <div className="flights-grid-wrapper bx-wrapper">
                                                     <div className="image-sec animate-img">
                                                         <Link to={`/booking/${i}`}>
@@ -147,7 +146,6 @@ function Recomflights() {
                                                         </div>
                                                         <div className="action">
                                                             <Link to={`/booking/${i}`} className="btn-first btn-submit">Book Now</Link>
-
                                                         </div>
                                                     </div>
                                                 </div>

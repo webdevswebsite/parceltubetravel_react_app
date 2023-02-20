@@ -49,7 +49,17 @@ function getStops(items) {
     return elems;
 }
 // Flight all details
-const getAllFlight =()=> flightblock.map(flight => flight);
+// const getAllFlight =()=> flightblock.map(flight => flight);
+
+const getAllFlight = () => flightblock.filter(flight => flight);
+
+// function getAllFlight(id) {
+//     return flightblock.filter(flight => { return flight.id === parseInt(id) })[0];
+// }
+
+// function getAllFlight(id) {
+//     return flightblock.filter(item => item.id === (id)[0]);
+//   }
 
 // Flight details
 function getFlight(id) {

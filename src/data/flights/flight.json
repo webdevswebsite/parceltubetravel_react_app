@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Lagos to London",
         "image": "assets/images/flights/1.jpg",
-        "price": 325,
+        "price": 853.04,
         "flightroute": [
             1
         ],
@@ -13,9 +13,7 @@
         "flightstops": [
             1
         ],
-        "airlines": [
-            1
-        ],
+        "airlines": "Qatar Airways",
         "accomondation": [
             1,
             2,
@@ -110,9 +108,9 @@
     },
     {
         "id": 2,
-        "title": "Abuja to Lagos",
+        "title": "Abuja to Nairobi",
         "image": "assets/images/flights/2.jpg",
-        "price": 110,
+        "price": 1175,
         "flightroute": [
             1
         ],
@@ -122,9 +120,7 @@
         "flightstops": [
             1
         ],
-        "airlines": [
-            2
-        ],
+        "airlines": "Rwanda Air",
         "accomondation": [
             1,
             2,
@@ -223,9 +219,9 @@
     },
     {
         "id": 3,
-        "title": "Dubai to Lagos",
+        "title": "Dubai to Istanbul",
         "image": "assets/images/flights/3.jpg",
-        "price": 285,
+        "price": 1145,
         "flightroute": [
             1
         ],
@@ -235,9 +231,7 @@
         "flightstops": [
             3
         ],
-        "airlines": [
-            3
-        ],
+        "airlines": "Ethiopian Airway",
         "accomondation": [
             1,
             2,
@@ -332,9 +326,9 @@
     },
     {
         "id": 4,
-        "title": "Abuja to Toronto",
+        "title": "Abuja to Johannesburg",
         "image": "assets/images/flights/4.jpg",
-        "price": 760,
+        "price": 815,
         "flightroute": [
             1
         ],
@@ -344,9 +338,7 @@
         "flightstops": [
             4
         ],
-        "airlines": [
-            4
-        ],
+        "airlines":"Air Côte d’Ivoire",
         "accomondation": [
             1,
             2,
@@ -447,7 +439,7 @@
         "id": 5,
         "title": "Lagos to Manchester",
         "image": "assets/images/flights/5.jpg",
-        "price": 693,
+        "price": 968,
         "flightroute": [
             1
         ],
@@ -457,9 +449,7 @@
         "flightstops": [
             1
         ],
-        "airlines": [
-            5
-        ],
+        "airlines":"Ethiopian Airway",
         "accomondation": [
             1,
             2,
@@ -554,9 +544,9 @@
     },
     {
         "id": 6,
-        "title": "Lagos to Akure",
+        "title": "Abuja to Manchester",
         "image": "assets/images/flights/6.jpg",
-        "price": 83,
+        "price": 1066,
         "flightroute": [
             1
         ],
@@ -566,9 +556,7 @@
         "flightstops": [
             2
         ],
-        "airlines": [
-            6
-        ],
+        "airlines": "Ethiopian Airway",
         "accomondation": [
             1,
             2,
@@ -667,9 +655,9 @@
     },
     {
         "id": 7,
-        "title": "Lagos to Benin",
+        "title": "Lagos to Jeddah",
         "image": "assets/images/flights/7.jpg",
-        "price": 77,
+        "price": 915,
         "flightroute": [
             1
         ],
@@ -679,9 +667,7 @@
         "flightstops": [
             3
         ],
-        "airlines": [
-            1
-        ],
+        "airlines": "Ethiopian Airway",
         "accomondation": [
             1,
             2,
@@ -776,9 +762,9 @@
     },
     {
         "id": 8,
-        "title": "Lagos to Asaba",
+        "title": "Lagos to Accra",
         "image": "assets/images/flights/8.jpg",
-        "price": 149,
+        "price": 664,
         "flightroute": [
             1
         ],
@@ -788,9 +774,7 @@
         "flightstops": [
             4
         ],
-        "airlines": [
-            2
-        ],
+        "airlines": "Air Peace",
         "accomondation": [
             1,
             2,
@@ -889,9 +873,9 @@
     },
     {
         "id": 9,
-        "title": "Lagos to Accra",
+        "title": "Lagos to Abuja",
         "image": "assets/images/flights/9.jpg",
-        "price": 216,
+        "price": 219,
         "flightroute": [
             1
         ],
@@ -901,9 +885,7 @@
         "flightstops": [
             1
         ],
-        "airlines": [
-            3
-        ],
+        "airlines": "Air Peace",
         "accomondation": [
             1,
             2,

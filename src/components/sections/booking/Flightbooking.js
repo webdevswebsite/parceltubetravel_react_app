@@ -1,20 +1,22 @@
 import React, { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { CurrencyState } from '../../../Context/CurrencyContext';
-import { getRecentFlight } from "../../../helper/flightHelper";
+// import { getRecentFlight } from "../../../helper/flightHelper";
+import dataBlock from '../../../data/flights/flight.json'
 import { formatNumber } from "../../../utils";
 import { useForm } from "react-hook-form"
 
 function Flightbooking() {
     const { id } = useParams()
-    const flightDetails = getRecentFlight()[ id ]
+    // const flightDetails = getRecentFlight()[ id ]
+    const flightDetails = dataBlock[ id ]
     const { price, title, airlines, flightdate, timestamp } = flightDetails
     const { register, handleSubmit, formState: { errors } } = useForm();
-
+    console.log(errors)
     const {
         state: { currency, rate }
     } = CurrencyState()
-    console.log(price * rate, "priceate")
+    // console.log(price * rate, "priceate")
 
     const amount = currency !== '$' ? price * rate : price
     useEffect(() => {
@@ -24,14 +26,17 @@ function Flightbooking() {
     }, []);
 
 
-    const handlePaymentGateway = data => {
+    // customer: {
+    //     email: data.email,
+    // },
+    const handlePaymentGateway = () => {
         return window.FlutterwaveCheckout({
             public_key: "FLWPUBK-00f1a8bfd678ad383f650cd6cccd643b-X",
             amount: amount,
             currency: localStorage.getItem('currency') || 'USD',
             tx_ref: new Date().toISOString(),
             customer: {
-                email: data.email,
+                email: localStorage.getItem("email"),
             },
             customizations: {
                 title: "PARCELTUBE",
@@ -42,11 +47,11 @@ function Flightbooking() {
         });
     }
 
-    const Input = ({ type, name, placeholder, required, defaultValue, disabled, others }) =>
-        <>
-            <input {...register(`${name || null}`, { required: required ? true : false, maxLength: 20 })} type={type || "text"} name={name || "#"} className="form-control form-control-custom rounded" placeholder={placeholder || "..."} defaultValue={defaultValue} disabled={disabled ? true : false} {...others} />
-            {errors.name && <span>This field is required</span>}
-        </>
+    // const Input = ({ type, name, placeholder, required, defaultValue, disabled, others }) =>
+    //     <>
+    //         <input {...register(`${name || null}`, { required: required ? true : false, maxLength: 20 })} type={type || "text"} name={name || "#"} className="form-control form-control-custom rounded" placeholder={placeholder || "..."} defaultValue={defaultValue} disabled={disabled ? true : false} {...others} />
+    //         {errors.name && <span>This field is required</span>}
+    //     </>
     return (
         <div className="tab-inner">
             <div className="row">
@@ -90,20 +95,29 @@ function Flightbooking() {
                                     <div className="row">
                                         <div className="col-md-12">
                                             <div className="form-group">
-                                                <label className="fs-14 text-custom-black fw-500">Full Name</label>
-                                                <Input name="fullName" placeholder="enter your full name" required />
+                                                <label className="fs-14 text-custom-black fw-500" >Full Name</label>
+                                                <input type="text" name="email" className="form-control form-control-custom" placeholder="enter your full name" autoFocus required />
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="form-group">
                                                 <label className="fs-14 text-custom-black fw-500">Email</label>
-                                                <Input name="email" placeholder="enter your email" required />
+                                                <input type="email" name="email" className="form-control form-control-custom" placeholder="enter your email" autoFocus required
+                                                    onBlur={(e) => {
+                                                        localStorage.setItem("email", e.target.value)
+                                                    }} />
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="form-group">
                                                 <label className="fs-14 text-custom-black fw-500">Phone No.</label>
-                                                <Input name="phone" placeholder="enter your phone number" required />
+                                                <input name="phone" type="number" className="form-control form-control-custom" placeholder="enter your phone number" autoFocus required />
+                                            </div>
+                                        </div>
+                                        <div className="col-md-12">
+                                            <div className="form-group">
+                                                <label className="fs-14 text-custom-black fw-500" >Departure Date</label>
+                                                    <input className='form-control form-control-custom datepickr' placeholder="Select a date" type="date" required />
                                             </div>
                                         </div>
                                         <div className="col-12">
