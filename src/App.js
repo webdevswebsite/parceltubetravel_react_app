@@ -34,6 +34,7 @@ const Gallery = React.lazy(() => import("./components/pages/Gallery"));
 // Additional
 const Comingsoon = React.lazy(() => import("./components/pages/Comingsoon"));
 const Errorpage = React.lazy(() => import("./components/pages/Errorpage"));
+const Contactform = React.lazy(() => import("./components/sections/contact/Contactform"));
 
 
 // Scroll to Top
@@ -58,7 +59,7 @@ function App() {
             {/* About */}
             <Route exact path="/about" component={About} />
             {/* Blog */}
-          
+            {/* checkout */}
             {/* Hotels */}          
             {/* Flights */}
             <Route exact path="/flight/:minPrice/:maxPrice" component={props => (<Flightgrid {...props} key={window.location.pathname} />)} />
@@ -79,6 +80,7 @@ function App() {
             <Route exact path="/cruise-grid-left" component={Cruisegridleft} />
             <Route exact path="/cruise-grid-right" component={Cruisegridright} />
             <Route exact path="/cruise-details/:id" component={props => (<Cruisedetails {...props} key={window.location.pathname} />)} />
+            {/* <Route exact path="/cruise-details/:id" component={props => (<Cruisedetails {...props} key={window.location.pathname} />)} /> */}
             {/* Contact */}
             <Route exact path="/contact" component={Contact} />
             {/* Faqs */}
@@ -86,6 +88,8 @@ function App() {
             <Route exact path="/booking/:id" component={Booking} />
             {/* Gallery */}
             <Route exact path="/gallery" component={Gallery} />
+            {/* checkout */}
+            <Route exact path="/contactform" component={Contactform} />
             {/* Additional */}
             <Route exact path="/coming-soon" component={Comingsoon} />
             <Route exact path="/error-page" component={Errorpage} />

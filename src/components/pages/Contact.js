@@ -5,14 +5,14 @@ import Footer from '../layouts/Footer';
 import Breadcrumbs from '../layouts/Breadcrumbs';
 import Content from '../sections/contact/Content';
 
-const pagelocation = "Contact Us";
+const pagelocation = "Review page";
 
 class Contact extends Component {
     render() {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Toor - Travel Booking - React Template | {pagelocation}</title>
+                    <title> Travel Booking | {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"

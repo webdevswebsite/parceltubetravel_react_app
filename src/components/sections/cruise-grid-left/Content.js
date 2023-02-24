@@ -86,9 +86,7 @@ class Content extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                {/* Data */}
                                 {paginationData}
-                                {/* Data */}
                             </div>
                             <div className="row">
                                 <div className="col-12">

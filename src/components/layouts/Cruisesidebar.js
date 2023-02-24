@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import line from "../../data/cruise/cruiseline.json";
-import preference from "../../data/cruise/preference.json";
-import accomodation from "../../data/cruise/accomodation.json";
-import amenities from "../../data/cruise/amenities.json";
-import cabintype from "../../data/cruise/cabintype.json";
-import IonRangeSlider from 'react-ion-slider';
+// import line from "../../data/cruise/cruiseline.json";
+// import preference from "../../data/cruise/preference.json";
+// import accomodation from "../../data/cruise/accomodation.json";
+// import amenities from "../../data/cruise/amenities.json";
+// import cabintype from "../../data/cruise/cabintype.json";
+// import IonRangeSlider from 'react-ion-slider';
 
 class Cruisesidebar extends Component {
     constructor(props) {
@@ -110,7 +110,7 @@ class Cruisesidebar extends Component {
                         <button type="submit" className="btn-first btn-submit full-width btn-height">Search Now</button>
                     </form>
                 </div>
-                <div className="sidebar_widgets mb-xl-30">
+                {/* <div className="sidebar_widgets mb-xl-30">
                     <div className="widget_title bg-custom-blue">
                         <h5 className="no-margin text-custom-white">Price</h5>
                     </div>
@@ -119,8 +119,8 @@ class Cruisesidebar extends Component {
                             <IonRangeSlider type="double" skin="round" hide_min_max={true} min={100} max={1000} from={this.state.priceFilter[0]} to={this.state.priceFilter[1]} grid={false} prefix="$" onChange={this.onPriceChange.bind(this)} />
                         </div>
                     </div>
-                </div>
-                <div className="sidebar_widgets mb-xl-30">
+                </div> */}
+                {/* <div className="sidebar_widgets mb-xl-30">
                     <div className="widget_title bg-custom-blue">
                         <h5 className="no-margin text-custom-white">Cruise Length</h5>
                     </div>
@@ -129,13 +129,12 @@ class Cruisesidebar extends Component {
                             <IonRangeSlider type="double" skin="round" hide_min_max={true} min={1} max={10} from={this.state.nightFilter[0]} to={this.state.nightFilter[1]} grid={false} onChange={this.onNightChange.bind(this)} />
                         </div>
                     </div>
-                </div>
-                <div className="sidebar_widgets mb-xl-30">
+                </div> */}
+                {/* <div className="sidebar_widgets mb-xl-30">
                     <div className="widget_title bg-custom-blue">
                         <h5 className="no-margin text-custom-white">Cruise Line</h5>
                     </div>
                     <form className="checkbox-group">
-                        {/* Data */}
                         {line.map((item, i) => (
                             <div className="form-group" key={i}>
                                 <label className="custom-checkbox">
@@ -145,16 +144,14 @@ class Cruisesidebar extends Component {
                                 </label>
                             </div>
                         ))}
-                        {/* Data */}
                         <button type="button" className="btn-second btn-small">View more</button>
                     </form>
-                </div>
-                <div className="sidebar_widgets mb-xl-30">
+                </div> */}
+                {/* <div className="sidebar_widgets mb-xl-30">
                     <div className="widget_title bg-custom-blue">
                         <h5 className="no-margin text-custom-white">Cruise Preference</h5>
                     </div>
                     <form className="checkbox-group">
-                        {/* Data */}
                         {preference.map((item, i) => (
                             <div className="form-group" key={i}>
                                 <label className="custom-checkbox">
@@ -164,16 +161,14 @@ class Cruisesidebar extends Component {
                                 </label>
                             </div>
                         ))}
-                        {/* Data */}
                         <button type="button" className="btn-second btn-small">View more</button>
                     </form>
-                </div>
-                <div className="sidebar_widgets mb-xl-30">
+                </div> */}
+                {/* <div className="sidebar_widgets mb-xl-30">
                     <div className="widget_title bg-custom-blue">
                         <h5 className="no-margin text-custom-white">Cruise Accomodation</h5>
                     </div>
                     <form className="checkbox-group">
-                        {/* Data */}
                         {accomodation.map((item, i) => (
                             <div className="form-group" key={i}>
                                 <label className="custom-checkbox">
@@ -183,16 +178,14 @@ class Cruisesidebar extends Component {
                                 </label>
                             </div>
                         ))}
-                        {/* Data */}
                         <button type="button" className="btn-second btn-small">View more</button>
                     </form>
-                </div>
-                <div className="sidebar_widgets mb-xl-30">
+                </div> */}
+                {/* <div className="sidebar_widgets mb-xl-30">
                     <div className="widget_title bg-custom-blue">
                         <h5 className="no-margin text-custom-white">Cruise Amenities</h5>
                     </div>
                     <form className="checkbox-group">
-                        {/* Data */}
                         {amenities.map((item, i) => (
                             <div className="form-group" key={i}>
                                 <label className="custom-checkbox">
@@ -202,16 +195,14 @@ class Cruisesidebar extends Component {
                                 </label>
                             </div>
                         ))}
-                        {/* Data */}
                         <button type="button" className="btn-second btn-small">View more</button>
                     </form>
-                </div>
-                <div className="sidebar_widgets">
+                </div> */}
+                {/* <div className="sidebar_widgets">
                     <div className="widget_title bg-custom-blue">
                         <h5 className="no-margin text-custom-white">Cabin Type</h5>
                     </div>
                     <form className="checkbox-group">
-                        {/* Data */}
                         {cabintype.map((item, i) => (
                             <div className="form-group" key={i}>
                                 <label className="custom-checkbox">
@@ -221,10 +212,9 @@ class Cruisesidebar extends Component {
                                 </label>
                             </div>
                         ))}
-                        {/* Data */}
                         <button type="button" className="btn-second btn-small">View more</button>
                     </form>
-                </div>
+                </div> */}
             </div>
         );
     }

@@ -145,7 +145,8 @@ function Recomflights() {
                                                             </div>
                                                         </div>
                                                         <div className="action">
-                                                            <Link to={`/booking/${i}`} className="btn-first btn-submit">Book Now</Link>
+                                                            <Link to={`/booking/${i}`} className="btn-first btn-submit"
+                                                            >Book Now</Link>
                                                         </div>
                                                     </div>
                                                 </div>
