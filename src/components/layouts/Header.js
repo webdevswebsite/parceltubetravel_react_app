@@ -58,7 +58,7 @@ function Header() {
                                         {/* <img src={process.env.PUBLIC_URL + "/assets/images/toor-logo.png"} className="img-fluid image-fit" alt="img" /> */}
                                     </Link>
                                 </div>
-                                {/* <span className="currency">Currency :</span>
+                                <span className="currency">Currency :</span>
                                 <select style={{ border: 'none' }} defaultValue={activeCurrency} onChange={handleChangeCurrency} >
                                     {currencies.map((currency, idx) => (
                                         <option
@@ -68,7 +68,7 @@ function Header() {
                                             {currency}
                                         </option>
                                     ))}
-                                </select> */}
+                                </select>
                                 {/* <div className={this.state.navMethod === true ? 'main-menu active' : 'main-menu'}> */}
                                 {/* <div className={this.state.navMethod === true ? 'main-menu active' : 'main-menu'}>
                                         <div className="logo">
