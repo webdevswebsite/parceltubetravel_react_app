@@ -47,7 +47,8 @@ class Footer extends NavHelper {
                                     <h4 className="text-custom-white fw-600">Gallery</h4>
                                     <ul className="custom instagram gallery-grid">
                                         {/* Data */}
-                                        {insta.slice(0, 6).map((item, i) => (
+                                        {insta.map((item, i) => (
+                                        // {insta.slice(0, 6).map((item, i) => (
                                             <li key={i}>
                                                 <Link to="#" className="text-custom-white popup">
                                                     <img src={process.env.PUBLIC_URL + "/" + item.image} className="image-fit" alt="img" />
