@@ -52,7 +52,7 @@ function Recomflights() {
                 <div className="container">
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Tours and Places</h3>
+                            <h3 className="text-custom-black">Top attractions </h3>
                         </div>
                     </div>
                     <div className="row">
@@ -106,7 +106,7 @@ function Recomflights() {
                 <div className="container" style={{ marginTop: '-90px' }}>
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Find Tours here</h3>
+                            <h3 className="text-custom-black">Find More Tours </h3>
                         </div>
                     </div>
                     <div className="row">
