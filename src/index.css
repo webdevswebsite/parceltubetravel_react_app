@@ -276,3 +276,17 @@ ul{
   font-size: 90px;
   color: red;
 }
+
+.centered-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  color:#596d73;
+}
+
+.visible-button {
+  visibility: visible;
+}

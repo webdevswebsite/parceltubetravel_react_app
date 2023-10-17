@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import { CurrencyState } from '../../../Context/CurrencyContext';
 import { formatNumber } from "../../../utils";
 import data from "../../../data/flights/flight.json"
+import { useState } from 'react';
 
 
 const settings = {
@@ -41,6 +42,7 @@ const settings = {
 };
 
 function Recomflights() {
+    const [ displayCount, setDisplayCount ] = useState(9);
 
     const {
         state: { currency, rate }
@@ -111,8 +113,7 @@ function Recomflights() {
                     </div>
                     <div className="row">
                         <div className="flights-slider arrow-layout-2 row col-md-12">
-                            {data.map((item, i) => {
-                                // {getAllFlight().map((item, i) => {
+                            {data.slice(0, displayCount).map((item, i) => {
                                 let priceToNum = parseInt(item.price)
                                 return (
                                     <>
@@ -127,7 +128,6 @@ function Recomflights() {
                                                     <div className="flights-grid-caption padding-20 bg-custom-white p-relative">
                                                         <div className="heading-sec card-footer-sec">
                                                             <div className="left-side">
-                                                                {/* <i className="fas fa-plane text-gray" /> */}
                                                                 <div className="title">
                                                                     <h4 className="fs-16">
                                                                         <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
@@ -138,8 +138,7 @@ function Recomflights() {
                                                                 </div>
                                                             </div>
                                                             <div className="right-side footer-right">
-
-                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)}<small style={{fontSize: '15px'}}>Per Person</small></span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)}<small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
@@ -151,10 +150,19 @@ function Recomflights() {
                                             </div>
                                         </div>
                                     </>
-                                )
-                            }
-                            )}
+                                )    
+                            })}
                         </div>
+                        {displayCount < data.length && (
+                            <div className='centered-button'>
+                                <button
+                                    className="btn-first btn-submit"
+                                    onClick={() => setDisplayCount(displayCount + 9)}
+                                >
+                                    Load More
+                                </button>
+                            </div>
+                        )}
                     </div>
                 </div>
             </section>
