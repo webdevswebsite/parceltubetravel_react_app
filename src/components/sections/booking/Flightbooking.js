@@ -41,7 +41,7 @@ function Flightbooking() {
                     <div className="col-lg-8">
                         <h5 className="text-custom-black">About this tour:</h5>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Price: </strong> <Link>{currency}{currency !== '$' ? formatNumber(price * rate) : formatNumber(price)}</Link> </p>
-                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Flight: </strong> <Link>{title}</Link> </p>
+                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour: </strong> <Link>{title}</Link> </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Booking Date: </strong> <Link>{flightdate}</Link> </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour Overview: </strong></p>
                         {/* <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Time Stamp: </strong> <Link>{timestamp}</Link> </p> */}
