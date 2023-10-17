@@ -265,3 +265,14 @@ ul{
 .footer-right{
  margin-left: 0; 
 }
+
+
+.maintenance{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 90px;
+  color: red;
+}

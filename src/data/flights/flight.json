@@ -743,5 +743,491 @@
                 }
             ]
         }
+    },
+     {
+        "id": 9,
+        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Punta Cana.jpg",
+        "price": 249,
+        "flightroute": [
+            5
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Discover the history, culture, and landscapes",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 9,
+        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Punta Cana.jpg",
+        "price": 249,
+        "flightroute": [
+            5
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Discover the history, culture, and landscapes",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 9,
+        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Punta Cana.jpg",
+        "price": 249,
+        "flightroute": [
+            5
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Discover the history, culture, and landscapes",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 9,
+        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Punta Cana.jpg",
+        "price": 249,
+        "flightroute": [
+            5
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Discover the history, culture, and landscapes",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 9,
+        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Punta Cana.jpg",
+        "price": 249,
+        "flightroute": [
+            5
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Discover the history, culture, and landscapes",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 9,
+        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Punta Cana.jpg",
+        "price": 249,
+        "flightroute": [
+            5
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Discover the history, culture, and landscapes",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
     }
 ]
