@@ -592,7 +592,7 @@
         "flightstops": [
             4
         ],
-        "airlines": "Discover the beautiful city of Amsterdam ",
+        "airlines": "Discover the beautiful city of Amsterdam on a classic boat",
         "accomondation": [
             1,
             2,
@@ -677,7 +677,7 @@
         "flightstops": [
             1
         ],
-        "airlines": "Discover the history, culture, and landscapes",
+        "airlines": "Discover the history, culture, and landscapes of Santo Domingo ",
         "accomondation": [
             1,
             2,
@@ -745,12 +745,12 @@
         }
     },
      {
-        "id": 9,
-        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
-        "image": "assets/images/flights/Punta Cana.jpg",
-        "price": 249,
+        "id": 10,
+        "title": "New Orleans: Evening Jazz Cruise",
+        "image": "assets/images/flights/New Orleans.jpg",
+        "price": 184,
         "flightroute": [
-            5
+            1
         ],
         "flighttype": [
             1
@@ -758,7 +758,169 @@
         "flightstops": [
             1
         ],
-        "airlines": "Discover the history, culture, and landscapes",
+        "airlines": "Experience New Orleans from the best seat in the city",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Visit one of the most famous coffee plantations in Costa Rica on this day tour from San Jose. Sample fresh coffee and visit the estate butterfly garden and botanical gardens.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 11,
+        "title": "From Riviera Maya: Tulum Ruins and Cenote Mariposa Tour",
+        "image": "assets/images/flights/Cenotes.jpg",
+        "price": 259,
+        "flightroute": [
+            3
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Explore Tulum's Mayan pyramid, temples, and relaxing beaches",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Explore Tulum's Mayan pyramid, temples, and relaxing beaches on a van trip from the Riviera Maya. Take a refreshing dip in the turquoise waters of the Mariposa cenote and visit the cenote of Chen-Ha.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 12,
+        "title": "Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Santo Domingo.jpg",
+        "price": 600,
+        "flightroute": [
+            4
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Discover the history, culture, and landscapes of Santo Domingo",
         "accomondation": [
             1,
             2,
@@ -826,12 +988,12 @@
         }
     },
      {
-        "id": 9,
-        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
-        "image": "assets/images/flights/Punta Cana.jpg",
-        "price": 249,
+        "id": 13,
+        "title": "Lekki Conservation Center Extraordinary Tour",
+        "image": "assets/images/flights/lekki.jpg",
+        "price": 149,
         "flightroute": [
-            5
+            6
         ],
         "flighttype": [
             1
@@ -839,7 +1001,7 @@
         "flightstops": [
             1
         ],
-        "airlines": "Discover the history, culture, and landscapes",
+        "airlines": "Enoy the longest canopy walk in Africa.",
         "accomondation": [
             1,
             2,
@@ -907,12 +1069,12 @@
         }
     },
      {
-        "id": 9,
-        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
-        "image": "assets/images/flights/Punta Cana.jpg",
-        "price": 249,
+        "id": 14,
+        "title": "Lagos Beach Adventures; With a wide array of beaches",
+        "image": "assets/images/flights/beach.jpg",
+        "price": 315,
         "flightroute": [
-            5
+            8
         ],
         "flighttype": [
             1
@@ -920,7 +1082,7 @@
         "flightstops": [
             1
         ],
-        "airlines": "Discover the history, culture, and landscapes",
+        "airlines": "Experience the calm ambience of the beach.",
         "accomondation": [
             1,
             2,
@@ -988,12 +1150,12 @@
         }
     },
      {
-        "id": 9,
-        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
-        "image": "assets/images/flights/Punta Cana.jpg",
-        "price": 249,
+        "id": 15,
+        "title": "São Paulo: Full-Day Private Wine Tour",
+        "image": "assets/images/flights/brasil.jpg",
+        "price": 200,
         "flightroute": [
-            5
+            9
         ],
         "flighttype": [
             1
@@ -1001,169 +1163,7 @@
         "flightstops": [
             1
         ],
-        "airlines": "Discover the history, culture, and landscapes",
-        "accomondation": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "category": [
-            5,
-            6
-        ],
-        "overview": {
-            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
-            "testimonials": [
-                1,
-                2,
-                3
-            ],
-            "flightinfo": [
-                {
-                    "title": "Fare Type",
-                    "text": "Refundable"
-                },
-                {
-                    "title": "Cancellation",
-                    "text": "$78/Person"
-                },
-                {
-                    "title": "Flight Change",
-                    "text": "$53/Person"
-                },
-                {
-                    "title": "Seats & Baggage",
-                    "text": "Extra Charge"
-                }
-            ]
-        },
-        "includes": {
-            "title": "Amenities",
-            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-            "amenities": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12
-            ]
-        },
-        "travelinfo": {
-            "title": "Travel Info",
-            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-            "journeydetails": [
-                {
-                    "takeofftime": "13 NOV 2022, 7:50 AM",
-                    "landingtime": "13 NOV 2022, 9:20 AM"
-                }
-            ]
-        }
-    },
-     {
-        "id": 9,
-        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
-        "image": "assets/images/flights/Punta Cana.jpg",
-        "price": 249,
-        "flightroute": [
-            5
-        ],
-        "flighttype": [
-            1
-        ],
-        "flightstops": [
-            1
-        ],
-        "airlines": "Discover the history, culture, and landscapes",
-        "accomondation": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "category": [
-            5,
-            6
-        ],
-        "overview": {
-            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
-            "testimonials": [
-                1,
-                2,
-                3
-            ],
-            "flightinfo": [
-                {
-                    "title": "Fare Type",
-                    "text": "Refundable"
-                },
-                {
-                    "title": "Cancellation",
-                    "text": "$78/Person"
-                },
-                {
-                    "title": "Flight Change",
-                    "text": "$53/Person"
-                },
-                {
-                    "title": "Seats & Baggage",
-                    "text": "Extra Charge"
-                }
-            ]
-        },
-        "includes": {
-            "title": "Amenities",
-            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-            "amenities": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12
-            ]
-        },
-        "travelinfo": {
-            "title": "Travel Info",
-            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-            "journeydetails": [
-                {
-                    "takeofftime": "13 NOV 2022, 7:50 AM",
-                    "landingtime": "13 NOV 2022, 9:20 AM"
-                }
-            ]
-        }
-    },
-     {
-        "id": 9,
-        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
-        "image": "assets/images/flights/Punta Cana.jpg",
-        "price": 249,
-        "flightroute": [
-            5
-        ],
-        "flighttype": [
-            1
-        ],
-        "flightstops": [
-            1
-        ],
-        "airlines": "Discover the history, culture, and landscapes",
+        "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
         "accomondation": [
             1,
             2,
