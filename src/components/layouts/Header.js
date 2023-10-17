@@ -11,24 +11,25 @@ function Header() {
         dispatch: dispatchCurrency
     } = CurrencyState();
 
-    console.log(currency, rate)
+    console.log(currency, currencies, rate)
 
     const [ activeCurrency, setActiveCurrency ] = useState(
         localStorage.getItem('currency')
     )
     //handle currency update
     const handleChangeCurrency = ({ target: { value } }) => {
-
         //update context currency state with the active state from select option
         dispatchCurrency({
             type: value,
             payload: value,
         })
-
         setActiveCurrency(value)
 
         //set the current current to local storage for persistency
     }
+
+    console.log(handleChangeCurrency)
+
 
     useEffect(() => {
         // on page reload activeCurency clears the state, prevent it from updating localstorage
@@ -58,7 +59,7 @@ function Header() {
                                         {/* <img src={process.env.PUBLIC_URL + "/assets/images/toor-logo.png"} className="img-fluid image-fit" alt="img" /> */}
                                     </Link>
                                 </div>
-                                <span className="currency">Currency :</span>
+                                {/* <span className="currency">Currency :</span>
                                 <select style={{ border: 'none' }} defaultValue={activeCurrency} onChange={handleChangeCurrency} >
                                     {currencies.map((currency, idx) => (
                                         <option
@@ -68,7 +69,7 @@ function Header() {
                                             {currency}
                                         </option>
                                     ))}
-                                </select>
+                                </select> */}
                                 {/* <div className={this.state.navMethod === true ? 'main-menu active' : 'main-menu'}> */}
                                 {/* <div className={this.state.navMethod === true ? 'main-menu active' : 'main-menu'}>
                                         <div className="logo">

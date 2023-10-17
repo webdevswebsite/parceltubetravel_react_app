@@ -1,5 +1,6 @@
 import React from 'react';
 import Videohelper from '../../../helper/Videohelper';
+import { Link } from 'react-router-dom';
 
 class Aboutus extends Videohelper {
     render() {
@@ -12,12 +13,18 @@ class Aboutus extends Videohelper {
                                 <div className="section-header">
                                     <div className="section-heading">
                                         <h3 className="text-custom-black">Term of service</h3>
+                                        <div className="col-md-8">
+                                            <i className="fas fa-home text-gray" />
+                                            {/* <i className="fas fa-plane text-gray" /> */}
+                                            <Link to="/" className="text-light-dark fs-14"
+                                            > Homepage</Link>
+                                        </div>
                                         <div className="section-description">
                                             <p className="text-light-black subheading">Who are we?</p>
                                         </div>
                                     </div>
                                 </div>
-                                <p className="text-light-dark">Parceltube (“us”, “we” or “our” as the context requires) provides online travel search services (including flight, hotel ) and other travel related services (the “Services”) to travellers throughout the world via our websites(the “Platform”).
+                                <p className="text-light-dark">Parceltube (“us”, “we” or “our” as the context requires) provides online travel search services and tour related services (the “Services”) to travellers throughout the world via our websites.
 
                                     Parceltube is not a travel agent and is not responsible for providing, setting or controlling the prices applicable to, any of the travel options or products which you find and book via our Services (“Third Party Travel Products”). All such Third Party Travel Products are provided by independent travel agents, airlines, hotels, tour operators or other third parties (“Travel Providers”) and are subject to the terms and conditions of those third parties.
 
@@ -143,6 +150,19 @@ class Aboutus extends Videohelper {
                                     <p className="text-light-dark">
                                     If you require further information about Parceltube or have any suggestions concerning how to improve our Services or Platforms, please contact us via info@parceltube.ng
                                     </p>
+                                    <div className="col-md-8">
+                                        <i className="fas fa-home text-gray" />
+                                        {/* <i className="fas fa-plane text-gray" /> */}
+                                        <Link to="/" className="text-light-dark fs-14"
+                                        > Go to Homepage</Link>
+                                    </div>
+                                    {/* <div className="section-header">
+                                        <div className="section-heading">
+                                            <div className="section-description">
+                                                <p className="text-light-black subheading">Go to Homepage</p>
+                                            </div>
+                                        </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

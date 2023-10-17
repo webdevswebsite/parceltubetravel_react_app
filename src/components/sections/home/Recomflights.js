@@ -52,7 +52,7 @@ function Recomflights() {
                 <div className="container">
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Top Flight Deals</h3>
+                            <h3 className="text-custom-black">Tours and Places</h3>
                         </div>
                     </div>
                     <div className="row">
@@ -69,26 +69,25 @@ function Recomflights() {
                                                             <img src={process.env.PUBLIC_URL + "/" + item.image} className="full-width" alt={item.title} />
                                                         </Link>
                                                     </div>
-                                                    <div className="flights-grid-caption padding-20 bg-custom-white p-relative">
-                                                        <div className="heading-sec">
+                                                    <div className="flights-grid-caption padding-20 bg-custom-white p-relative card-footer">
+                                                        <div className="heading-sec card-footer-sec">
                                                             <div className="left-side">
-                                                                <i className="fas fa-plane text-gray" />
+                                                                {/* <i className="fas fa-plane text-gray" /> */}
                                                                 <div className="title">
                                                                     <h4 className="fs-16">
                                                                         <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
                                                                         {getRoute(item.flightroute).map((route, i) => (
-                                                                            <span className="text-light-dark" key={i}>{route.title}
-                                                                                Flight</span>
+                                                                            <span className="text-light-dark" key={i}>{route.title}</span>
                                                                         ))}
                                                                     </h4>
                                                                 </div>
                                                             </div>
-                                                            <div className="right-side">
-                                                                <span className="price"><small>Flight price</small>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)}</span>
+                                                            <div className="right-side footer-right">
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none' }}>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)} <small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
-                                                            <Link to={`/booking/${i}`} className="btn-first btn-submit">Book Now</Link>
+                                                            <Link to={`/booking/${i}`} className="btn-first btn-submit">Book Tour</Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -104,16 +103,16 @@ function Recomflights() {
                 </div>
             </section>
             <section className="section-padding flights-sec bg-light-white">
-                <div className="container" style={{marginTop:'-90px'}}> 
-                <div className="section-header">
+                <div className="container" style={{ marginTop: '-90px' }}>
+                    <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Popular flights</h3>
+                            <h3 className="text-custom-black">Find Tours here</h3>
                         </div>
                     </div>
                     <div className="row">
                         <div className="flights-slider arrow-layout-2 row col-md-12">
                             {data.map((item, i) => {
-                            // {getAllFlight().map((item, i) => {
+                                // {getAllFlight().map((item, i) => {
                                 let priceToNum = parseInt(item.price)
                                 return (
                                     <>
@@ -126,27 +125,26 @@ function Recomflights() {
                                                         </Link>
                                                     </div>
                                                     <div className="flights-grid-caption padding-20 bg-custom-white p-relative">
-                                                        <div className="heading-sec">
+                                                        <div className="heading-sec card-footer-sec">
                                                             <div className="left-side">
-                                                                <i className="fas fa-plane text-gray" />
+                                                                {/* <i className="fas fa-plane text-gray" /> */}
                                                                 <div className="title">
                                                                     <h4 className="fs-16">
                                                                         <Link to={`/booking/${i}`} className="text-custom-black">{item.title}</Link>
                                                                         {getRoute(item.flightroute).map((route, i) => (
-                                                                            <span className="text-light-dark" key={i}>{route.title}
-                                                                                Flight</span>
+                                                                            <span className="text-light-dark" key={i}>{route.title}</span>
                                                                         ))}
                                                                     </h4>
                                                                 </div>
                                                             </div>
-                                                            <div className="right-side">
+                                                            <div className="right-side footer-right">
 
-                                                                <span className="price"><small>Flight price</small>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)}</span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)}<small style={{fontSize: '15px'}}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
                                                             <Link to={`/booking/${i}`} className="btn-first btn-submit"
-                                                            >Book Now</Link>
+                                                            >Book Tour</Link>
                                                         </div>
                                                     </div>
                                                 </div>

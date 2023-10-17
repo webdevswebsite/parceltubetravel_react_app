@@ -9,7 +9,7 @@ class About extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Parceltube - Travel Booking  | {pagelocation}</title>
+                    <title>Parceltube - Tour Booking  | {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"

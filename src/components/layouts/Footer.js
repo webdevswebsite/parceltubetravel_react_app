@@ -15,8 +15,8 @@ class Footer extends NavHelper {
                             <div className="col-lg-6 col-md-6">
                                 <div className="footer-box mb-md-40">
                                     <h4 className="text-custom-white fw-600">Parceltube</h4>
-                                    <h5 className="text-custom-white"><strong>What does Parceltube do? </strong></h5>
-                                    <p className="text-custom-white">Parceltube is your one-stop online travel shop. Forget trawling the web for the latest flight specials. We bring you the best international and domestic flights from all your favourite airlines. Pay quickly and safely with Visa or Mastercard. Go for a journey of your preferred destinations with the best airfare discounts.. For all your travel needs, go with the best and we’ll take care of the rest.
+                                    <h5 className="text-custom-white"><strong>About Us</strong></h5>
+                                    <p className="text-custom-white">Welcome to Parceltube, your ultimate destination for booking unforgettable tours and experiences to exciting places around the world. Discover a wide range of curated itineraries, from thrilling adventure tours to cultural explorations and everything in between. With our user-friendly platform, booking your dream tour has never been easier. Trust our expert guides and reliable partners to ensure a seamless and memorable travel experience. Start your journey today and create lifelong memories with Parceltube.
                                     </p>
                                     <p className="text-custom-white"><strong>Contact us: </strong>info@parceltube.ng</p>
 

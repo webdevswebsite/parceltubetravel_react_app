@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "title": "Lagos to London",
-        "image": "assets/images/flights/1.jpg",
-        "price": 853.04,
+        "title": "Robben Island Tour (Big Groups)",
+        "image": "assets/images/flights/Robben-Island.jpg",
+        "price": 150.00,
         "flightroute": [
             1
         ],
@@ -13,7 +13,7 @@
         "flightstops": [
             1
         ],
-        "airlines": "Qatar Airways",
+        "airlines": "Africa Tours and Sightseeing",
         "accomondation": [
             1,
             2,
@@ -26,7 +26,7 @@
             2
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "text": "<p class='text-light-dark'>Learn about Nelson Mandela’s remarkable legacy on this guided tour of Robben Island, where the famous leader spent long years of his imprisonment. Cover centuries of history in the UNESCO-listed historical property, which include decades as a military base, hospital, and maximum security prison. Tours include door-to-door pickup and drop-off from your Cape Town hotel; admission is at your expense.</p>",
             "testimonials": [
                 1,
                 2,
@@ -78,41 +78,15 @@
                     "landingtime": "Landing, 0:00 AM/PM"
                 }
             ]
-        },
-        "faqs": [
-            {
-                "title": "Rules and Policies",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Changes",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Refunds",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Penalties",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Cancellation",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Terms of use",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            }
-        ]
+        }
     },
     {
         "id": 2,
-        "title": "Abuja to Nairobi",
-        "image": "assets/images/flights/2.jpg",
-        "price": 1175,
+        "title": "New York: CityPASS® with Tickets",
+        "image": "assets/images/flights/new-york.jpg",
+        "price": 245.68,
         "flightroute": [
-            1
+            2
         ],
         "flighttype": [
             1
@@ -120,7 +94,7 @@
         "flightstops": [
             1
         ],
-        "airlines": "Rwanda Air",
+        "airlines": "Keep your travel plans flexible — book your spot",
         "accomondation": [
             1,
             2,
@@ -133,7 +107,7 @@
             4
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "text": "<p class='text-light-dark'> Experience world-class art, fascinating science, important history, incredible views—from the sky and the sea, and more with your New York CityPASS® tickets. Save 40% on prepaid admission to 5 must-see attractions:  Empire State Building – General admission entry to the 86th floor observatory and admission to the 2nd floor museum, plus bonus same-night general admission</p>",
             "testimonials": [
                 1,
                 2,
@@ -189,41 +163,15 @@
                     "landingtime": "16 NOV 2022, 9:20 AM"
                 }
             ]
-        },
-        "faqs": [
-            {
-                "title": "Rules and Policies",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Changes",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Refunds",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Penalties",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Cancellation",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Terms of use",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            }
-        ]
+        }
     },
     {
         "id": 3,
-        "title": "Dubai to Istanbul",
-        "image": "assets/images/flights/3.jpg",
-        "price": 1145,
+        "title": "Chicago City Cruise",
+        "image": "assets/images/flights/chicago.jpg",
+        "price": 187,
         "flightroute": [
-            1
+            3
         ],
         "flighttype": [
             3
@@ -231,7 +179,7 @@
         "flightstops": [
             3
         ],
-        "airlines": "Ethiopian Airway",
+        "airlines": "See New York’s top attractions, handpicked and packaged together at significant savings. ",
         "accomondation": [
             1,
             2,
@@ -244,7 +192,7 @@
             6
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "text": "<p class='text-light-dark'> Experience world-class art, fascinating science, important history, incredible views—from the sky and the sea, and more with your New York CityPASS® tickets.</p>",
             "testimonials": [
                 1,
                 2,
@@ -296,41 +244,15 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        },
-        "faqs": [
-            {
-                "title": "Rules and Policies",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Changes",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Refunds",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Penalties",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Cancellation",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Terms of use",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            }
-        ]
+        }
     },
     {
         "id": 4,
-        "title": "Abuja to Johannesburg",
-        "image": "assets/images/flights/4.jpg",
-        "price": 815,
+        "title": "Nairobi: Karen Blixen, Elephant Orphanage and Giraffe Center",
+        "image": "assets/images/flights/nairobi.jpg",
+        "price": 286,
         "flightroute": [
-            1
+            4
         ],
         "flighttype": [
             4
@@ -338,7 +260,7 @@
         "flightstops": [
             4
         ],
-        "airlines":"Air Côte d’Ivoire",
+        "airlines":"Visit the Karen Blixen Museum in Nairobi and see the forest",
         "accomondation": [
             1,
             2,
@@ -351,7 +273,7 @@
             2
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "text": "<p class='text-light-dark'>Visit the Karen Blixen Museum in Nairobi and see the forest, plows, and farm equipment. Go to the David Sheldrick Wildlife Trust to see the elephant orphanage, then head to the Giraffe Center.</p>",
             "testimonials": [
                 1,
                 2,
@@ -407,41 +329,15 @@
                     "landingtime": "16 NOV 2022, 9:20 AM"
                 }
             ]
-        },
-        "faqs": [
-            {
-                "title": "Rules and Policies",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Changes",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Refunds",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Penalties",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Cancellation",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Terms of use",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            }
-        ]
+        }
     },
     {
         "id": 5,
-        "title": "Lagos to Manchester",
-        "image": "assets/images/flights/5.jpg",
-        "price": 968,
+        "title": "From Dubai: Abu Dhabi Premium Full-Day Sightseeing Tour",
+        "image": "assets/images/flights/dubai.jpg",
+        "price": 315,
         "flightroute": [
-            1
+            5
         ],
         "flighttype": [
             1
@@ -449,7 +345,7 @@
         "flightstops": [
             1
         ],
-        "airlines":"Ethiopian Airway",
+        "airlines":"Discover the best attractions of Abu Dhabi",
         "accomondation": [
             1,
             2,
@@ -462,7 +358,7 @@
             4
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "text": "<p class='text-light-dark'>Discover the best attractions of Abu Dhabi on a premium full-day sightseeing tour from Dubai. Explore the Grand Mosque, Etihad Towers, Qasr Al Watan, and take a ride along the Corniche on this tour.</p>",
             "testimonials": [
                 1,
                 2,
@@ -514,41 +410,15 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        },
-        "faqs": [
-            {
-                "title": "Rules and Policies",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Changes",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Refunds",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Penalties",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Cancellation",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Terms of use",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            }
-        ]
+        }
     },
     {
         "id": 6,
-        "title": "Abuja to Manchester",
-        "image": "assets/images/flights/6.jpg",
-        "price": 1066,
+        "title": "Stockholm: City Archipelago Sightseeing Cruise with Guide",
+        "image": "assets/images/flights/Stockholm.jpg",
+        "price": 389,
         "flightroute": [
-            1
+            6
         ],
         "flighttype": [
             2
@@ -556,7 +426,7 @@
         "flightstops": [
             2
         ],
-        "airlines": "Ethiopian Airway",
+        "airlines": "Climb aboard a classic archipelago ship",
         "accomondation": [
             1,
             2,
@@ -569,7 +439,7 @@
             6
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "text": "<p class='text-light-dark'>Climb aboard a classic archipelago ship and sail on the waterways of Stockholm on a sightseeing cruise. Experience the untouched nature of the city's archipelago and hear about the sights from a guide.</p>",
             "testimonials": [
                 1,
                 2,
@@ -625,39 +495,13 @@
                     "landingtime": "16 NOV 2022, 9:20 AM"
                 }
             ]
-        },
-        "faqs": [
-            {
-                "title": "Rules and Policies",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Changes",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Refunds",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Penalties",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Cancellation",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Terms of use",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            }
-        ]
+        }
     },
     {
         "id": 7,
-        "title": "Lagos to Jeddah",
-        "image": "assets/images/flights/7.jpg",
-        "price": 915,
+        "title": "From Madrid: Toledo and Segovia Tour",
+        "image": "assets/images/flights/Madrid.jpg",
+        "price": 400,
         "flightroute": [
             1
         ],
@@ -667,7 +511,7 @@
         "flightstops": [
             3
         ],
-        "airlines": "Ethiopian Airway",
+        "airlines": "Depart from Madrid and embark on a morning tour of Toledo ",
         "accomondation": [
             1,
             2,
@@ -680,7 +524,7 @@
             2
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "text": "<p class='text-light-dark'>Depart from Madrid and embark on a morning tour of Toledo with an optional cathedral visit. Combine your experience with an afternoon tour of Segovia, with tickets to the Alcazar Fortress.</p>",
             "testimonials": [
                 1,
                 2,
@@ -732,41 +576,15 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        },
-        "faqs": [
-            {
-                "title": "Rules and Policies",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Changes",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Refunds",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Penalties",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Cancellation",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Terms of use",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            }
-        ]
+        }
     },
     {
         "id": 8,
-        "title": "Lagos to Accra",
-        "image": "assets/images/flights/8.jpg",
-        "price": 664,
+        "title": "Amsterdam: Classic Boat Cruise with Cheese & Wine Option",
+        "image": "assets/images/flights/Amsterdam.jpg",
+        "price": 485,
         "flightroute": [
-            1
+            2
         ],
         "flighttype": [
             4
@@ -774,7 +592,7 @@
         "flightstops": [
             4
         ],
-        "airlines": "Air Peace",
+        "airlines": "Discover the beautiful city of Amsterdam ",
         "accomondation": [
             1,
             2,
@@ -787,7 +605,7 @@
             4
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "text": "<p class='text-light-dark'>Discover the beautiful city of Amsterdam on a classic boat with this covered canal cruise. Sail past city sights like the Maritime Museum, the Golden Bend, and the Anne Frank House.</p>",
             "testimonials": [
                 1,
                 2,
@@ -843,41 +661,15 @@
                     "landingtime": "16 NOV 2022, 9:20 AM"
                 }
             ]
-        },
-        "faqs": [
-            {
-                "title": "Rules and Policies",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Changes",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Refunds",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Penalties",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Cancellation",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Terms of use",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            }
-        ]
+        }
     },
     {
         "id": 9,
-        "title": "Lagos to Abuja",
-        "image": "assets/images/flights/9.jpg",
-        "price": 219,
+        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Punta Cana.jpg",
+        "price": 249,
         "flightroute": [
-            1
+            5
         ],
         "flighttype": [
             1
@@ -885,7 +677,7 @@
         "flightstops": [
             1
         ],
-        "airlines": "Air Peace",
+        "airlines": "Discover the history, culture, and landscapes",
         "accomondation": [
             1,
             2,
@@ -898,7 +690,7 @@
             6
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.            </p><p class='text-light-dark'>Sed aliquam nunc eget velit imperdiet, in rutrum mauris malesuada. Quisque ullamcorper vulputate nisi, et fringilla ante convallis quis. Nullam vel tellus non elit suscipit volutpat. Integer id felis et nibh rutrum dignissim ut non risus. In tincidunt urna quis sem luctus, sed accumsan magna pellentesque. Donec et iaculis tellus. Vestibulum ut iaculis justo, auctor sodales lectus. Donec et tellus tempus, dignissim maurornare, consequat lacus. Integer dui neque, scelerisque nec sollicitudin sit amet, sodales a erat. Duis vitae condimentum ligula. Integer eu mi nisl. Donec massa dui, commodo id arcu quis, venenatis scelerisque velit.</p>",
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
             "testimonials": [
                 1,
                 2,
@@ -950,32 +742,6 @@
                     "landingtime": "13 NOV 2022, 9:20 AM"
                 }
             ]
-        },
-        "faqs": [
-            {
-                "title": "Rules and Policies",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Changes",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Refunds",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Penalties",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Flight Cancellation",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            },
-            {
-                "title": "Airline Terms of use",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
-            }
-        ]
+        }
     }
 ]
