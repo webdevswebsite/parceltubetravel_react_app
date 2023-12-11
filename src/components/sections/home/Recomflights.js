@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { getRecentFlight, getRoute } from "../../../helper/flightHelper";
 import Slider from 'react-slick';
-import { CurrencyState } from '../../../Context/CurrencyContext';
+// import { CurrencyState } from '../../../Context/CurrencyContext';
 import { formatNumber } from "../../../utils";
 import data from "../../../data/flights/flight.json"
 import { useState } from 'react';
@@ -44,9 +44,9 @@ const settings = {
 function Recomflights() {
     const [ displayCount, setDisplayCount ] = useState(9);
 
-    const {
-        state: { currency, rate }
-    } = CurrencyState()
+    // const {
+    //     state: { currency, rate }
+    // } = CurrencyState()
 
     return (
         <>
@@ -85,7 +85,7 @@ function Recomflights() {
                                                                 </div>
                                                             </div>
                                                             <div className="right-side footer-right">
-                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none' }}>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)} <small style={{ fontSize: '15px' }}>Per Person</small></span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none' }}>₦{formatNumber(item.price)} <small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
@@ -138,7 +138,7 @@ function Recomflights() {
                                                                 </div>
                                                             </div>
                                                             <div className="right-side footer-right">
-                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>{currency}{currency !== '$' ? formatNumber(priceToNum * rate) : formatNumber(item.price)}<small style={{ fontSize: '15px' }}>Per Person</small></span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>₦{formatNumber(item.price)}<small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
