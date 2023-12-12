@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Robben Island Tour (Big Groups)",
         "image": "assets/images/flights/Robben-Island.jpg",
-        "price": 150.00,
+        "price": "119,750",
         "flightroute": [
             1
         ],
@@ -84,7 +84,7 @@
         "id": 2,
         "title": "New York: CityPASS® with Tickets",
         "image": "assets/images/flights/new-york.jpg",
-        "price": 245.68,
+        "price": "194,625",
         "flightroute": [
             2
         ],
@@ -169,7 +169,7 @@
         "id": 3,
         "title": "Chicago City Cruise",
         "image": "assets/images/flights/chicago.jpg",
-        "price": 187,
+        "price": "148,571",
         "flightroute": [
             3
         ],
@@ -250,7 +250,7 @@
         "id": 4,
         "title": "Nairobi: Karen Blixen, Elephant Orphanage and Giraffe Center",
         "image": "assets/images/flights/nairobi.jpg",
-        "price": 286,
+        "price": "227,227",
         "flightroute": [
             4
         ],
@@ -335,7 +335,7 @@
         "id": 5,
         "title": "From Dubai: Abu Dhabi Premium Full-Day Sightseeing Tour",
         "image": "assets/images/flights/dubai.jpg",
-        "price": 315,
+        "price": "250,267",
         "flightroute": [
             5
         ],
@@ -416,7 +416,7 @@
         "id": 6,
         "title": "Stockholm: City Archipelago Sightseeing Cruise with Guide",
         "image": "assets/images/flights/Stockholm.jpg",
-        "price": 389,
+        "price": "309,060",
         "flightroute": [
             6
         ],
@@ -501,7 +501,7 @@
         "id": 7,
         "title": "From Madrid: Toledo and Segovia Tour",
         "image": "assets/images/flights/Madrid.jpg",
-        "price": 400,
+        "price": "317,800",
         "flightroute": [
             1
         ],
@@ -582,7 +582,7 @@
         "id": 8,
         "title": "Amsterdam: Classic Boat Cruise with Cheese & Wine Option",
         "image": "assets/images/flights/Amsterdam.jpg",
-        "price": 485,
+        "price": "385,332",
         "flightroute": [
             2
         ],
@@ -667,7 +667,7 @@
         "id": 9,
         "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
         "image": "assets/images/flights/Punta Cana.jpg",
-        "price": 249,
+        "price": "197,830",
         "flightroute": [
             5
         ],
@@ -748,7 +748,7 @@
         "id": 10,
         "title": "New Orleans: Evening Jazz Cruise",
         "image": "assets/images/flights/New Orleans.jpg",
-        "price": 184,
+        "price":"146,188",
         "flightroute": [
             1
         ],
@@ -829,7 +829,7 @@
         "id": 11,
         "title": "From Riviera Maya: Tulum Ruins and Cenote Mariposa Tour",
         "image": "assets/images/flights/Cenotes.jpg",
-        "price": 259,
+        "price": "205,480",
         "flightroute": [
             3
         ],
@@ -910,7 +910,7 @@
         "id": 12,
         "title": "Santo Domingo Day Trip with Tickets and Lunch",
         "image": "assets/images/flights/Santo Domingo.jpg",
-        "price": 600,
+        "price": "473,700",
         "flightroute": [
             4
         ],
@@ -991,7 +991,7 @@
         "id": 13,
         "title": "Lekki Conservation Center Extraordinary Tour",
         "image": "assets/images/flights/lekki.jpg",
-        "price": 149,
+        "price": "117,635",
         "flightroute": [
             6
         ],
@@ -1072,7 +1072,7 @@
         "id": 14,
         "title": "Lagos Beach Adventures; With a wide array of beaches",
         "image": "assets/images/flights/beach.jpg",
-        "price": 315,
+        "price": "248,692",
         "flightroute": [
             8
         ],
@@ -1153,7 +1153,7 @@
         "id": 15,
         "title": "São Paulo: Full-Day Private Wine Tour",
         "image": "assets/images/flights/brasil.jpg",
-        "price": 200,
+        "price": "157,900",
         "flightroute": [
             9
         ],

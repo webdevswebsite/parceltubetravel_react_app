@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { getRecentFlight, getRoute } from "../../../helper/flightHelper";
 import Slider from 'react-slick';
 // import { CurrencyState } from '../../../Context/CurrencyContext';
-import { formatNumber } from "../../../utils";
+// import { formatNumber } from "../../../utils";
 import data from "../../../data/flights/flight.json"
 import { useState } from 'react';
 
@@ -61,7 +61,6 @@ function Recomflights() {
                         <div className="col-12">
                             <Slider {...settings} className="flights-slider arrow-layout-2 row">
                                 {getRecentFlight().map((item, i) => {
-                                    let priceToNum = parseInt(item.price)
                                     return (
                                         <div key={i} className="slide-item col-12">
                                             <div className="flights-grid">
@@ -85,7 +84,7 @@ function Recomflights() {
                                                                 </div>
                                                             </div>
                                                             <div className="right-side footer-right">
-                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none' }}>₦{formatNumber(item.price)} <small style={{ fontSize: '15px' }}>Per Person</small></span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none' }}>₦{item.price} <small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
@@ -114,7 +113,6 @@ function Recomflights() {
                     <div className="row">
                         <div className="flights-slider arrow-layout-2 row col-md-12">
                             {data.slice(0, displayCount).map((item, i) => {
-                                let priceToNum = parseInt(item.price)
                                 return (
                                     <>
                                         <div key={i} className="slide-item col-md-12 col-lg-4">
@@ -138,7 +136,7 @@ function Recomflights() {
                                                                 </div>
                                                             </div>
                                                             <div className="right-side footer-right">
-                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>₦{formatNumber(item.price)}<small style={{ fontSize: '15px' }}>Per Person</small></span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>₦{item.price}<small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
