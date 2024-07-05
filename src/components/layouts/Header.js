@@ -54,7 +54,7 @@ function Header() {
                                 <div className="logo">
                                     <Link to="/">
                                         <b style={{ fontSize: '30px' }}>
-                                            Parceltube
+                                            Parceltube Travels
                                         </b>
                                         {/* <img src={process.env.PUBLIC_URL + "/assets/images/toor-logo.png"} className="img-fluid image-fit" alt="img" /> */}
                                     </Link>

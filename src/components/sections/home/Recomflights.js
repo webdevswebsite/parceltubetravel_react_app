@@ -54,7 +54,7 @@ function Recomflights() {
                 <div className="container">
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Top attractions </h3>
+                            <h3 className="text-custom-black">Recommended</h3>
                         </div>
                     </div>
                     <div className="row">
@@ -107,7 +107,7 @@ function Recomflights() {
                 <div className="container" style={{ marginTop: '-90px' }}>
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Find More Tours </h3>
+                            <h3 className="text-custom-black">Other Exicting tours </h3>
                         </div>
                     </div>
                     <div className="row">
@@ -141,7 +141,7 @@ function Recomflights() {
                                                         </div>
                                                         <div className="action">
                                                             <Link to={`/booking/${i}`} className="btn-first btn-submit"
-                                                            >Book Tour</Link>
+                                                            >Book Now</Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -157,7 +157,7 @@ function Recomflights() {
                                     className="btn-first btn-submit"
                                     onClick={() => setDisplayCount(displayCount + 9)}
                                 >
-                                    Load More
+                                    Discover More
                                 </button>
                             </div>
                         )}

@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "title": "Robben Island Tour (Big Groups)",
-        "image": "assets/images/flights/Robben-Island.jpg",
-        "price": "119,750",
+        "title": "Baecation In Miami",
+        "image": "assets/images/flights/couple.jpg",
+        "price": "819,750",
         "flightroute": [
             1
         ],
@@ -26,7 +26,7 @@
             2
         ],
         "overview": {
-            "text": "<p class='text-light-dark'>Learn about Nelson Mandela’s remarkable legacy on this guided tour of Robben Island, where the famous leader spent long years of his imprisonment. Cover centuries of history in the UNESCO-listed historical property, which include decades as a military base, hospital, and maximum security prison. Tours include door-to-door pickup and drop-off from your Cape Town hotel; admission is at your expense.</p>",
+            "text": "<p Enjoy the best of Miami with your spouse What could be better than an all inclusive vacation in Miami with your beloved spouse? The Baecation in Miami trip is full of fun activities to do with your sweetie, so go ahead and pack your bags.</p>",
             "testimonials": [
                 1,
                 2,
@@ -248,9 +248,9 @@
     },
     {
         "id": 4,
-        "title": "Nairobi: Karen Blixen, Elephant Orphanage and Giraffe Center",
-        "image": "assets/images/flights/nairobi.jpg",
-        "price": "227,227",
+        "title": "Sunset In Maldives",
+        "image": "assets/images/flights/maldiv.jpg",
+        "price": "600,000",
         "flightroute": [
             4
         ],
@@ -260,7 +260,7 @@
         "flightstops": [
             4
         ],
-        "airlines":"Visit the Karen Blixen Museum in Nairobi and see the forest",
+        "airlines":"Enjoy the natural beauty of Maldives",
         "accomondation": [
             1,
             2,
@@ -333,9 +333,9 @@
     },
     {
         "id": 5,
-        "title": "From Dubai: Abu Dhabi Premium Full-Day Sightseeing Tour",
-        "image": "assets/images/flights/dubai.jpg",
-        "price": "250,267",
+        "title": "Kayak In Miami",
+        "image": "assets/images/flights/maimikayak.jpg",
+        "price": "750,500",
         "flightroute": [
             5
         ],
