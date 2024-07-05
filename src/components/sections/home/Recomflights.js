@@ -65,7 +65,8 @@ function Recomflights() {
                                         <div key={i} className="slide-item col-12">
                                             <div className="flights-grid">
                                                 <div className="flights-grid-wrapper bx-wrapper">
-                                                    <div className="image-sec animate-img">
+                                                    <div className="">
+                                                    {/* <div className="image-sec animate-img"> */}
                                                         <Link to={`/booking/${i}`}>
                                                             <img src={process.env.PUBLIC_URL + "/" + item.image} className="full-width" alt={item.title} />
                                                         </Link>
@@ -88,7 +89,7 @@ function Recomflights() {
                                                             </div>
                                                         </div>
                                                         <div className="action">
-                                                            <Link to={`/booking/${i}`} className="btn-first btn-submit">Book Tour</Link>
+                                                            <Link to={`/booking/${i}`} className="btn-first btn-submit">Secure Your Experience</Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -118,7 +119,8 @@ function Recomflights() {
                                         <div key={i} className="slide-item col-md-12 col-lg-4">
                                             <div className="flights-grid " style={{ marginTop: '25px' }}>
                                                 <div className="flights-grid-wrapper bx-wrapper">
-                                                    <div className="image-sec animate-img">
+                                                    <div className="">
+                                                    {/* <div className="image-sec animate-img"> */}
                                                         <Link to={`/booking/${i}`}>
                                                             <img src={process.env.PUBLIC_URL + "/" + item.image} className="full-width" alt={item.title} />
                                                         </Link>
@@ -141,7 +143,7 @@ function Recomflights() {
                                                         </div>
                                                         <div className="action">
                                                             <Link to={`/booking/${i}`} className="btn-first btn-submit"
-                                                            >Book Now</Link>
+                                                            >Secure Your Experience</Link>
                                                         </div>
                                                     </div>
                                                 </div>

@@ -744,15 +744,15 @@ label.custom-checkbox .checkmark:after {
     padding: 12px 40px;
     position: relative;
     transition: 0.5s all;
-    background: transparent;
     color: inherit;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     font-size: 14px;
     overflow: hidden;
     z-index: 1;
     text-align: center;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     text-transform: uppercase;
+    text-decoration: underline;
 }
 .btn-submit{
     border-color: #81a8b5;
@@ -1314,6 +1314,7 @@ label.custom-checkbox .checkmark:after {
 .hotel-grid .hotel-grid-wrapper .hotel-grid-caption .title{
     letter-spacing: 0.04em;
     line-height: 1em;
+    align-items: center;
 }
 .cruise-grid .cruise-grid-wrapper .cruise-grid-caption .title:after,
 .hotel-grid .hotel-grid-wrapper .hotel-grid-caption .title:after{
