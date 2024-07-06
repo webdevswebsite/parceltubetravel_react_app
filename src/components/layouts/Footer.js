@@ -8,7 +8,6 @@ class Footer extends NavHelper {
         const backToTop = this.state.stickyHeader ? ' d-block' : '';
         return (
             <Fragment>
-                {/* Start Footer */}
                 <footer className="section-padding footer">
                     <div className="container">
                         <div className="row">
@@ -23,7 +22,7 @@ class Footer extends NavHelper {
 
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            <div className="col-lg-6 col-md-6" style={{display: 'flex', justifyContent:'right'}}>
                                 <div className="footer-box mb-md-40">
                                     <h4 className="text-custom-white fw-600">Quick Links</h4>
                                     <ul className="custom links">
@@ -34,49 +33,27 @@ class Footer extends NavHelper {
                                         <li>
                                             <Link to="/about" className="text-custom-white">Terms of Service</Link>
                                         </li>
-                                        {/* <li>
-                                            <Link to="/cruise-grid" className="text-custom-white">Cruise</Link>
-                                        </li> */}
-
 
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6">
+                            {/* <div className="col-lg-3 col-md-6">
                                 <div className="footer-box mb-sm-40">
                                     <h4 className="text-custom-white fw-600">Gallery</h4>
                                     <ul className="custom instagram gallery-grid">
-                                        {/* Data */}
                                         {insta.map((item, i) => (
-                                        // {insta.slice(0, 6).map((item, i) => (
                                             <li key={i}>
                                                 <Link to="#" className="text-custom-white popup">
                                                     <img src={process.env.PUBLIC_URL + "/" + item.image} className="image-fit" alt="img" />
                                                 </Link>
                                             </li>
                                         ))}
-                                        {/* Data */}
                                     </ul>
-                                </div>
-                            </div>
-                            {/* <div className="col-lg-3 col-md-6">
-                                <div className="footer-box mb-sm-40">
-                                    <h4 className="text-custom-white fw-600">Get travel news</h4>
-                                    <div className="newsletter">
-                                        <form>
-                                            <div className="form-group">
-                                                <input type="email" name="#" className="form-control form-control-custom" placeholder="Subscribe with email" required />
-                                            </div>
-                                            <button type="submit" className="btn-first btn-submit">Send me news</button>
-                                        </form>
-                                    </div>
                                 </div>
                             </div> */}
                         </div>
                     </div>
                 </footer>
-                {/* End Footer */}
-                {/* Start Copyright */}
                 <div className="copyright">
                     <div className="container">
                         <div className="row">
