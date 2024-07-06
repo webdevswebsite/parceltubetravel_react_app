@@ -84,7 +84,7 @@
         "id": 2,
         "title": "New York tour",
         "image": "assets/images/flights/newyork.jpg",
-        "price": "194,625",
+        "price": "294,625",
         "flightroute": [
             2
         ],
@@ -169,7 +169,7 @@
         "id": 3,
         "title": "Chicago City trip",
         "image": "assets/images/flights/chicagonew.jpg",
-        "price": "148,571",
+        "price": "178,571",
         "flightroute": [
             3
         ],
@@ -414,8 +414,8 @@
     },
     {
         "id": 7,
-        "title": "Toledo and Segovia Tour",
-        "image": "assets/images/flights/Madrid.jpg",
+        "title": "Madrid Countryside Wineries Guided",
+        "image": "assets/images/flights/madridtour.jpg",
         "price": "317,800",
         "flightroute": [
             1
@@ -580,8 +580,8 @@
     },
     {
         "id": 9,
-        "title": "Santo Domingo Day Trip with Tickets and Lunch",
-        "image": "assets/images/flights/Punta Cana.jpg",
+        "title": "London in a Day with Tower",
+        "image": "assets/images/flights/londonnew.jpg",
         "price": "197,830",
         "flightroute": [
             5
@@ -661,8 +661,8 @@
     },
      {
         "id": 10,
-        "title": "New Orleans evening Jazz Cruise",
-        "image": "assets/images/flights/New Orleans.jpg",
+        "title": "New Orleans evening trip",
+        "image": "assets/images/flights/neworleannew.jpg",
         "price":"146,188",
         "flightroute": [
             1
