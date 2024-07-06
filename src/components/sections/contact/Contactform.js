@@ -15,6 +15,13 @@ export default function Contactform() {
     const { price, title, airlines, flightdate } = data || {}
     const { name, email, phone, date, selectOption } = bookingData || {}
 
+    const removeCommas = (value) => {
+        return value.toString().replace(/,/g, '');
+      }
+
+      const cleanPrice = removeCommas(price);
+
+
     console.log(selectOption)
 
     const {
@@ -73,7 +80,9 @@ export default function Contactform() {
                                                 <li className="text-light-dark form_list"> <strong>Tour: </strong> <Link>{title}</Link> </li>
                                                 
                                                 <li className="text-light-dark form_list"> <strong>City: </strong> <Link>{airlines}</Link> </li>
-                                                <li className="text-light-dark form_list" > <strong>Amount due: </strong> <Link>{currency}{currency !== '$' ? formatNumber(price * rate) : formatNumber(price)}</Link> </li>
+                                                <li className="text-light-dark form_list" > <strong>Amount due: </strong> 
+                                                <Link>{currency}{currency !== '$' ? formatNumber(cleanPrice * rate) : formatNumber(cleanPrice)}</Link> 
+                                                </li>
                                                 <li className="text-light-dark form_list"> <strong>Customer Name: </strong> <Link>{name}</Link> </li>
                                                 <li className="text-light-dark form_list" > <strong>Email: </strong> <Link>{email}</Link> </li>
                                                 <li className="text-light-dark form_list" > <strong>Phone Number: </strong> <Link>{phone}</Link> </li>

@@ -13,6 +13,11 @@ function Flightbooking() {
     const flightDetails = dataBlock[ id ]
     const { price, title, airlines, flightdate } = flightDetails
     localStorage.setItem("flightDetails", JSON.stringify(flightDetails))
+    const removeCommas = (value) => {
+        return value.toString().replace(/,/g, '');
+      }
+
+      const cleanPrice = removeCommas(price);
 
     console.log(airlines)
 
@@ -40,7 +45,7 @@ function Flightbooking() {
                 <div className="row">
                     <div className="col-lg-8">
                         <h5 className="text-custom-black">About this tour:</h5>
-                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Price: </strong> <Link>{currency}{currency !== '$' ? formatNumber(price * rate) : formatNumber(price)}</Link> </p>
+                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Price: </strong> <Link>{currency}{currency !== '$' ? formatNumber(cleanPrice * rate) : formatNumber(cleanPrice)}</Link> </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour: </strong> <Link>{title}</Link> </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Booking Date: </strong> <Link>{flightdate}</Link> </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour Overview: </strong></p>
