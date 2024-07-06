@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import NavHelper from '../../helper/NavHelper';
-import insta from '../../data/instagram.json';
 
 class Footer extends NavHelper {
     render() {
