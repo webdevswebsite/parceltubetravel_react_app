@@ -82,7 +82,7 @@
     },
     {
         "id": 2,
-        "title": "New York CityPASS® with Tickets",
+        "title": "New York tour",
         "image": "assets/images/flights/newyork.jpg",
         "price": "194,625",
         "flightroute": [
@@ -167,7 +167,7 @@
     },
     {
         "id": 3,
-        "title": "Chicago City Cruise",
+        "title": "Chicago City trip",
         "image": "assets/images/flights/chicagonew.jpg",
         "price": "148,571",
         "flightroute": [
@@ -408,91 +408,6 @@
                 {
                     "takeofftime": "13 NOV 2022, 7:50 AM",
                     "landingtime": "13 NOV 2022, 9:20 AM"
-                }
-            ]
-        }
-    },
-    {
-        "id": 6,
-        "title": "Archipelago Sightseeing Cruise with Guide",
-        "image": "assets/images/flights/Stockholm.jpg",
-        "price": "309,060",
-        "flightroute": [
-            6
-        ],
-        "flighttype": [
-            2
-        ],
-        "flightstops": [
-            2
-        ],
-        "airlines": "Climb aboard a classic archipelago ship",
-        "accomondation": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "category": [
-            5,
-            6
-        ],
-        "overview": {
-            "text": "<p class='text-light-dark'>Climb aboard a classic archipelago ship and sail on the waterways of Stockholm on a sightseeing cruise. Experience the untouched nature of the city's archipelago and hear about the sights from a guide.</p>",
-            "testimonials": [
-                1,
-                2,
-                3
-            ],
-            "flightinfo": [
-                {
-                    "title": "Fare Type",
-                    "text": "Refundable"
-                },
-                {
-                    "title": "Cancellation",
-                    "text": "$78/Person"
-                },
-                {
-                    "title": "Flight Change",
-                    "text": "$53/Person"
-                },
-                {
-                    "title": "Seats & Baggage",
-                    "text": "Extra Charge"
-                }
-            ]
-        },
-        "includes": {
-            "title": "Amenities",
-            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-            "amenities": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12
-            ]
-        },
-        "travelinfo": {
-            "title": "Travel Info",
-            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-            "journeydetails": [
-                {
-                    "takeofftime": "13 NOV 2022, 7:50 AM",
-                    "landingtime": "13 NOV 2022, 9:20 AM"
-                },
-                {
-                    "takeofftime": "16 NOV 2022, 7:50 AM",
-                    "landingtime": "16 NOV 2022, 9:20 AM"
                 }
             ]
         }
