@@ -83,7 +83,7 @@
     {
         "id": 2,
         "title": "New York CityPASS® with Tickets",
-        "image": "assets/images/flights/new-york.jpg",
+        "image": "assets/images/flights/newyork.jpg",
         "price": "194,625",
         "flightroute": [
             2
@@ -168,7 +168,7 @@
     {
         "id": 3,
         "title": "Chicago City Cruise",
-        "image": "assets/images/flights/chicago.jpg",
+        "image": "assets/images/flights/chicagonew.jpg",
         "price": "148,571",
         "flightroute": [
             3
@@ -1002,87 +1002,6 @@
             1
         ],
         "airlines": "Experience the calm ambience of the beach.",
-        "accomondation": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "category": [
-            5,
-            6
-        ],
-        "overview": {
-            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
-            "testimonials": [
-                1,
-                2,
-                3
-            ],
-            "flightinfo": [
-                {
-                    "title": "Fare Type",
-                    "text": "Refundable"
-                },
-                {
-                    "title": "Cancellation",
-                    "text": "$78/Person"
-                },
-                {
-                    "title": "Flight Change",
-                    "text": "$53/Person"
-                },
-                {
-                    "title": "Seats & Baggage",
-                    "text": "Extra Charge"
-                }
-            ]
-        },
-        "includes": {
-            "title": "Amenities",
-            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-            "amenities": [
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12
-            ]
-        },
-        "travelinfo": {
-            "title": "Travel Info",
-            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
-            "journeydetails": [
-                {
-                    "takeofftime": "13 NOV 2022, 7:50 AM",
-                    "landingtime": "13 NOV 2022, 9:20 AM"
-                }
-            ]
-        }
-    },
-     {
-        "id": 15,
-        "title": "São Paulo full-Day Private Wine Tour",
-        "image": "assets/images/flights/brasil.jpg",
-        "price": "157,900",
-        "flightroute": [
-            9
-        ],
-        "flighttype": [
-            1
-        ],
-        "flightstops": [
-            1
-        ],
-        "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
         "accomondation": [
             1,
             2,
