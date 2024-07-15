@@ -59,6 +59,9 @@ function Header() {
                                         {/* <img src={process.env.PUBLIC_URL + "/assets/images/toor-logo.png"} className="img-fluid image-fit" alt="img" /> */}
                                     </Link>
                                 </div>
+                                <ul style={{fontSize: '20px', fontWeight: '600'}} className='nav-links'>
+                                    <Link to="/contact" className='nav-link'>Contact Us</Link>
+                                </ul>
                                 {/* <span className="currency">Currency :</span>
                                 <select style={{ border: 'none' }} defaultValue={activeCurrency} onChange={handleChangeCurrency} >
                                     {currencies.map((currency, idx) => (
