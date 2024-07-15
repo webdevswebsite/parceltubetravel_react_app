@@ -62,7 +62,7 @@ and we will be happy to help</p>
                     <div className='contact-us-icon-text-group-container contact-us-page-container'>
                         <div className='contact-us-icon-text-group'>
                             <figure><img alt='mail icon' src="/assets/images/icon-mail.svg" /></figure>
-                            <div><p className='text-group-header'>Sen us an email</p>
+                            <div><p className='text-group-header'>Send us an email</p>
                                 <p className='text-group-text'>info@parceltube.ng</p>
                             </div>
                         </div>
